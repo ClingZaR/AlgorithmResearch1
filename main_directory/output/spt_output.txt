@@ -1,150 +1,150 @@
 Class 1, Instance 1:
-Cmin: 231, Cmax: 280, Difference: 49
+Cmin: 251, Cmax: 318, Difference: 67
 
 Class 1, Instance 2:
-Cmin: 273, Cmax: 332, Difference: 59
+Cmin: 247, Cmax: 289, Difference: 42
 
 Class 1, Instance 3:
-Cmin: 164, Cmax: 226, Difference: 62
+Cmin: 160, Cmax: 187, Difference: 27
 
 Class 1, Instance 4:
-Cmin: 229, Cmax: 277, Difference: 48
+Cmin: 134, Cmax: 177, Difference: 43
 
 Class 1, Instance 5:
-Cmin: 197, Cmax: 247, Difference: 50
+Cmin: 150, Cmax: 209, Difference: 59
 
 Class 1, Instance 6:
-Cmin: 248, Cmax: 275, Difference: 27
+Cmin: 285, Cmax: 360, Difference: 75
 
 Class 1, Instance 7:
-Cmin: 156, Cmax: 185, Difference: 29
+Cmin: 274, Cmax: 316, Difference: 42
 
 Class 1, Instance 8:
-Cmin: 250, Cmax: 290, Difference: 40
+Cmin: 210, Cmax: 247, Difference: 37
 
 Class 1, Instance 9:
-Cmin: 185, Cmax: 238, Difference: 53
+Cmin: 227, Cmax: 307, Difference: 80
 
 Class 1, Instance 10:
-Cmin: 242, Cmax: 264, Difference: 22
+Cmin: 252, Cmax: 278, Difference: 26
 
 Class 2, Instance 1:
-Cmin: 289, Cmax: 313, Difference: 24
+Cmin: 298, Cmax: 336, Difference: 38
 
 Class 2, Instance 2:
-Cmin: 289, Cmax: 317, Difference: 28
+Cmin: 317, Cmax: 357, Difference: 40
 
 Class 2, Instance 3:
-Cmin: 362, Cmax: 383, Difference: 21
+Cmin: 319, Cmax: 347, Difference: 28
 
 Class 2, Instance 4:
-Cmin: 258, Cmax: 309, Difference: 51
+Cmin: 317, Cmax: 353, Difference: 36
 
 Class 2, Instance 5:
-Cmin: 250, Cmax: 266, Difference: 16
+Cmin: 262, Cmax: 292, Difference: 30
 
 Class 2, Instance 6:
-Cmin: 309, Cmax: 344, Difference: 35
+Cmin: 268, Cmax: 312, Difference: 44
 
 Class 2, Instance 7:
-Cmin: 363, Cmax: 399, Difference: 36
+Cmin: 364, Cmax: 383, Difference: 19
 
 Class 2, Instance 8:
-Cmin: 320, Cmax: 342, Difference: 22
+Cmin: 359, Cmax: 393, Difference: 34
 
 Class 2, Instance 9:
-Cmin: 310, Cmax: 345, Difference: 35
+Cmin: 302, Cmax: 324, Difference: 22
 
 Class 2, Instance 10:
-Cmin: 315, Cmax: 361, Difference: 46
+Cmin: 297, Cmax: 315, Difference: 18
 
 Class 3, Instance 1:
-Cmin: 339, Cmax: 373, Difference: 34
+Cmin: 359, Cmax: 388, Difference: 29
 
 Class 3, Instance 2:
-Cmin: 385, Cmax: 409, Difference: 24
+Cmin: 340, Cmax: 354, Difference: 14
 
 Class 3, Instance 3:
-Cmin: 396, Cmax: 411, Difference: 15
+Cmin: 351, Cmax: 377, Difference: 26
 
 Class 3, Instance 4:
-Cmin: 381, Cmax: 397, Difference: 16
+Cmin: 372, Cmax: 386, Difference: 14
 
 Class 3, Instance 5:
-Cmin: 363, Cmax: 398, Difference: 35
+Cmin: 358, Cmax: 391, Difference: 33
 
 Class 3, Instance 6:
-Cmin: 366, Cmax: 404, Difference: 38
+Cmin: 384, Cmax: 413, Difference: 29
 
 Class 3, Instance 7:
-Cmin: 333, Cmax: 368, Difference: 35
+Cmin: 382, Cmax: 406, Difference: 24
 
 Class 3, Instance 8:
-Cmin: 368, Cmax: 404, Difference: 36
+Cmin: 362, Cmax: 389, Difference: 27
 
 Class 3, Instance 9:
-Cmin: 343, Cmax: 369, Difference: 26
+Cmin: 356, Cmax: 377, Difference: 21
 
 Class 3, Instance 10:
-Cmin: 340, Cmax: 360, Difference: 20
+Cmin: 377, Cmax: 417, Difference: 40
 
 Class 4, Instance 1:
-Cmin: 435, Cmax: 449, Difference: 14
+Cmin: 442, Cmax: 457, Difference: 15
 
 Class 4, Instance 2:
-Cmin: 454, Cmax: 463, Difference: 9
+Cmin: 459, Cmax: 473, Difference: 14
 
 Class 4, Instance 3:
-Cmin: 444, Cmax: 453, Difference: 9
+Cmin: 442, Cmax: 458, Difference: 16
 
 Class 4, Instance 4:
-Cmin: 443, Cmax: 452, Difference: 9
+Cmin: 454, Cmax: 464, Difference: 10
 
 Class 4, Instance 5:
-Cmin: 425, Cmax: 432, Difference: 7
+Cmin: 446, Cmax: 455, Difference: 9
 
 Class 4, Instance 6:
-Cmin: 451, Cmax: 459, Difference: 8
+Cmin: 442, Cmax: 449, Difference: 7
 
 Class 4, Instance 7:
-Cmin: 438, Cmax: 445, Difference: 7
+Cmin: 449, Cmax: 455, Difference: 6
 
 Class 4, Instance 8:
-Cmin: 438, Cmax: 445, Difference: 7
+Cmin: 434, Cmax: 442, Difference: 8
 
 Class 4, Instance 9:
-Cmin: 446, Cmax: 457, Difference: 11
+Cmin: 436, Cmax: 450, Difference: 14
 
 Class 4, Instance 10:
-Cmin: 446, Cmax: 454, Difference: 8
+Cmin: 431, Cmax: 443, Difference: 12
 
 Class 5, Instance 1:
-Cmin: 905, Cmax: 1074, Difference: 169
+Cmin: 895, Cmax: 968, Difference: 73
 
 Class 5, Instance 2:
-Cmin: 911, Cmax: 984, Difference: 73
+Cmin: 914, Cmax: 1010, Difference: 96
 
 Class 5, Instance 3:
-Cmin: 901, Cmax: 1031, Difference: 130
+Cmin: 1007, Cmax: 1061, Difference: 54
 
 Class 5, Instance 4:
-Cmin: 926, Cmax: 1013, Difference: 87
+Cmin: 904, Cmax: 986, Difference: 82
 
 Class 5, Instance 5:
-Cmin: 852, Cmax: 982, Difference: 130
+Cmin: 897, Cmax: 1040, Difference: 143
 
 Class 5, Instance 6:
-Cmin: 844, Cmax: 952, Difference: 108
+Cmin: 828, Cmax: 966, Difference: 138
 
 Class 5, Instance 7:
-Cmin: 1111, Cmax: 1225, Difference: 114
+Cmin: 944, Cmax: 1047, Difference: 103
 
 Class 5, Instance 8:
-Cmin: 785, Cmax: 820, Difference: 35
+Cmin: 803, Cmax: 870, Difference: 67
 
 Class 5, Instance 9:
-Cmin: 1020, Cmax: 1185, Difference: 165
+Cmin: 727, Cmax: 827, Difference: 100
 
 Class 5, Instance 10:
-Cmin: 909, Cmax: 958, Difference: 49
+Cmin: 758, Cmax: 829, Difference: 71
 

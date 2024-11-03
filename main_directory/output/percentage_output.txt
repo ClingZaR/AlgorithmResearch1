@@ -1,150 +1,150 @@
 Class 1, Instance 1:
-Best SPT 5%: Difference = 3
+Best SPT 5%: Difference = 1
 
 Class 1, Instance 2:
-Best SPT 45%: Difference = 5
+Best SPT 15%: Difference = 14
 
 Class 1, Instance 3:
-Best SPT 15%: Difference = 0
+Best SPT 15%: Difference = 1
 
 Class 1, Instance 4:
-Best SPT 5%: Difference = 0
+Best SPT 65%: Difference = 1
 
 Class 1, Instance 5:
-Best SPT 35%: Difference = 0
+Best SPT 25%: Difference = 1
 
 Class 1, Instance 6:
 Best SPT 5%: Difference = 1
 
 Class 1, Instance 7:
-Best SPT 25%: Difference = 1
-
-Class 1, Instance 8:
-Best SPT 5%: Difference = 0
-
-Class 1, Instance 9:
-Best SPT 25%: Difference = 1
-
-Class 1, Instance 10:
-Best SPT 5%: Difference = 2
-
-Class 2, Instance 1:
-Best SPT 5%: Difference = 6
-
-Class 2, Instance 2:
-Best SPT 25%: Difference = 4
-
-Class 2, Instance 3:
-Best SPT 5%: Difference = 1
-
-Class 2, Instance 4:
-Best SPT 5%: Difference = 1
-
-Class 2, Instance 5:
-Best SPT 5%: Difference = 6
-
-Class 2, Instance 6:
-Best SPT 45%: Difference = 1
-
-Class 2, Instance 7:
-Best SPT 15%: Difference = 12
-
-Class 2, Instance 8:
-Best SPT 85%: Difference = 2
-
-Class 2, Instance 9:
-Best SPT 45%: Difference = 15
-
-Class 2, Instance 10:
 Best SPT 15%: Difference = 0
 
+Class 1, Instance 8:
+Best SPT 15%: Difference = 1
+
+Class 1, Instance 9:
+Best SPT 5%: Difference = 4
+
+Class 1, Instance 10:
+Best SPT 5%: Difference = 0
+
+Class 2, Instance 1:
+Best SPT 5%: Difference = 4
+
+Class 2, Instance 2:
+Best SPT 5%: Difference = 0
+
+Class 2, Instance 3:
+Best SPT 85%: Difference = 4
+
+Class 2, Instance 4:
+Best SPT 25%: Difference = 0
+
+Class 2, Instance 5:
+Best SPT 15%: Difference = 0
+
+Class 2, Instance 6:
+Best SPT 45%: Difference = 16
+
+Class 2, Instance 7:
+Best SPT 5%: Difference = 1
+
+Class 2, Instance 8:
+Best SPT 45%: Difference = 4
+
+Class 2, Instance 9:
+Best SPT 25%: Difference = 0
+
+Class 2, Instance 10:
+Best SPT 5%: Difference = 0
+
 Class 3, Instance 1:
-Best SPT 5%: Difference = 2
+Best SPT 45%: Difference = 1
 
 Class 3, Instance 2:
 Best SPT 5%: Difference = 2
 
 Class 3, Instance 3:
-Best SPT 45%: Difference = 1
+Best SPT 15%: Difference = 2
 
 Class 3, Instance 4:
-Best SPT 35%: Difference = 2
-
-Class 3, Instance 5:
-Best SPT 55%: Difference = 1
-
-Class 3, Instance 6:
-Best SPT 55%: Difference = 0
-
-Class 3, Instance 7:
-Best SPT 75%: Difference = 1
-
-Class 3, Instance 8:
-Best SPT 45%: Difference = 4
-
-Class 3, Instance 9:
-Best SPT 15%: Difference = 2
-
-Class 3, Instance 10:
-Best SPT 15%: Difference = 2
-
-Class 4, Instance 1:
-Best SPT 15%: Difference = 2
-
-Class 4, Instance 2:
-Best SPT 5%: Difference = 3
-
-Class 4, Instance 3:
-Best SPT 5%: Difference = 1
-
-Class 4, Instance 4:
-Best SPT 5%: Difference = 1
-
-Class 4, Instance 5:
-Best SPT 25%: Difference = 1
-
-Class 4, Instance 6:
 Best SPT 5%: Difference = 0
 
-Class 4, Instance 7:
-Best SPT 5%: Difference = 3
+Class 3, Instance 5:
+Best SPT 15%: Difference = 3
 
-Class 4, Instance 8:
+Class 3, Instance 6:
+Best SPT 5%: Difference = 7
+
+Class 3, Instance 7:
+Best SPT 5%: Difference = 4
+
+Class 3, Instance 8:
 Best SPT 15%: Difference = 1
 
-Class 4, Instance 9:
-Best SPT 25%: Difference = 1
+Class 3, Instance 9:
+Best SPT 15%: Difference = 3
 
-Class 4, Instance 10:
+Class 3, Instance 10:
+Best SPT 85%: Difference = 4
+
+Class 4, Instance 1:
+Best SPT 15%: Difference = 1
+
+Class 4, Instance 2:
+Best SPT 25%: Difference = 6
+
+Class 4, Instance 3:
 Best SPT 5%: Difference = 2
 
-Class 5, Instance 1:
-Best SPT 5%: Difference = 9
+Class 4, Instance 4:
+Best SPT 75%: Difference = 2
 
-Class 5, Instance 2:
-Best SPT 25%: Difference = 1
+Class 4, Instance 5:
+Best SPT 15%: Difference = 1
 
-Class 5, Instance 3:
-Best SPT 45%: Difference = 24
-
-Class 5, Instance 4:
-Best SPT 5%: Difference = 63
-
-Class 5, Instance 5:
-Best SPT 45%: Difference = 14
-
-Class 5, Instance 6:
-Best SPT 75%: Difference = 4
-
-Class 5, Instance 7:
-Best SPT 55%: Difference = 12
-
-Class 5, Instance 8:
+Class 4, Instance 6:
 Best SPT 55%: Difference = 1
 
+Class 4, Instance 7:
+Best SPT 45%: Difference = 2
+
+Class 4, Instance 8:
+Best SPT 5%: Difference = 0
+
+Class 4, Instance 9:
+Best SPT 5%: Difference = 2
+
+Class 4, Instance 10:
+Best SPT 25%: Difference = 0
+
+Class 5, Instance 1:
+Best SPT 45%: Difference = 1
+
+Class 5, Instance 2:
+Best SPT 25%: Difference = 2
+
+Class 5, Instance 3:
+Best SPT 35%: Difference = 4
+
+Class 5, Instance 4:
+Best SPT 35%: Difference = 34
+
+Class 5, Instance 5:
+Best SPT 5%: Difference = 21
+
+Class 5, Instance 6:
+Best SPT 15%: Difference = 8
+
+Class 5, Instance 7:
+Best SPT 55%: Difference = 5
+
+Class 5, Instance 8:
+Best SPT 35%: Difference = 3
+
 Class 5, Instance 9:
-Best SPT 75%: Difference = 7
+Best SPT 5%: Difference = 0
 
 Class 5, Instance 10:
-Best SPT 5%: Difference = 1
+Best SPT 45%: Difference = 3
 

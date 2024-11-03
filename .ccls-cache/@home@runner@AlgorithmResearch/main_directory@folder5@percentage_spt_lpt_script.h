@@ -1,0 +1,6 @@
+#ifndef PERCENTAGE_SPT_LPT_SCRIPT_H
+#define PERCENTAGE_SPT_LPT_SCRIPT_H
+
+void runPercentageSPT_LPT();
+
+#endif // PERCENTAGE_SPT_LPT_SCRIPT_H

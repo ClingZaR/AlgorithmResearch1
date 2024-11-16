@@ -1,150 +1,1950 @@
 Class 1, Instance 1:
-Cmin: 251, Cmax: 318, Difference: 67
+Cmin: 237, Cmax: 264, Difference: 27
 
 Class 1, Instance 2:
-Cmin: 247, Cmax: 289, Difference: 42
+Cmin: 241, Cmax: 310, Difference: 69
 
 Class 1, Instance 3:
-Cmin: 160, Cmax: 187, Difference: 27
+Cmin: 269, Cmax: 306, Difference: 37
 
 Class 1, Instance 4:
-Cmin: 134, Cmax: 177, Difference: 43
+Cmin: 234, Cmax: 278, Difference: 44
 
 Class 1, Instance 5:
-Cmin: 150, Cmax: 209, Difference: 59
+Cmin: 221, Cmax: 269, Difference: 48
 
 Class 1, Instance 6:
-Cmin: 285, Cmax: 360, Difference: 75
+Cmin: 198, Cmax: 262, Difference: 64
 
 Class 1, Instance 7:
-Cmin: 274, Cmax: 316, Difference: 42
+Cmin: 268, Cmax: 308, Difference: 40
 
 Class 1, Instance 8:
-Cmin: 210, Cmax: 247, Difference: 37
+Cmin: 153, Cmax: 232, Difference: 79
 
 Class 1, Instance 9:
-Cmin: 227, Cmax: 307, Difference: 80
+Cmin: 229, Cmax: 283, Difference: 54
 
 Class 1, Instance 10:
-Cmin: 252, Cmax: 278, Difference: 26
+Cmin: 240, Cmax: 297, Difference: 57
 
 Class 2, Instance 1:
-Cmin: 298, Cmax: 336, Difference: 38
+Cmin: 265, Cmax: 281, Difference: 16
 
 Class 2, Instance 2:
-Cmin: 317, Cmax: 357, Difference: 40
+Cmin: 357, Cmax: 401, Difference: 44
 
 Class 2, Instance 3:
-Cmin: 319, Cmax: 347, Difference: 28
+Cmin: 331, Cmax: 342, Difference: 11
 
 Class 2, Instance 4:
-Cmin: 317, Cmax: 353, Difference: 36
+Cmin: 288, Cmax: 326, Difference: 38
 
 Class 2, Instance 5:
-Cmin: 262, Cmax: 292, Difference: 30
+Cmin: 317, Cmax: 338, Difference: 21
 
 Class 2, Instance 6:
-Cmin: 268, Cmax: 312, Difference: 44
+Cmin: 322, Cmax: 353, Difference: 31
 
 Class 2, Instance 7:
-Cmin: 364, Cmax: 383, Difference: 19
+Cmin: 266, Cmax: 306, Difference: 40
 
 Class 2, Instance 8:
-Cmin: 359, Cmax: 393, Difference: 34
+Cmin: 276, Cmax: 323, Difference: 47
 
 Class 2, Instance 9:
-Cmin: 302, Cmax: 324, Difference: 22
+Cmin: 274, Cmax: 298, Difference: 24
 
 Class 2, Instance 10:
-Cmin: 297, Cmax: 315, Difference: 18
+Cmin: 239, Cmax: 272, Difference: 33
 
 Class 3, Instance 1:
-Cmin: 359, Cmax: 388, Difference: 29
+Cmin: 333, Cmax: 357, Difference: 24
 
 Class 3, Instance 2:
-Cmin: 340, Cmax: 354, Difference: 14
+Cmin: 371, Cmax: 407, Difference: 36
 
 Class 3, Instance 3:
-Cmin: 351, Cmax: 377, Difference: 26
+Cmin: 401, Cmax: 418, Difference: 17
 
 Class 3, Instance 4:
-Cmin: 372, Cmax: 386, Difference: 14
+Cmin: 382, Cmax: 415, Difference: 33
 
 Class 3, Instance 5:
-Cmin: 358, Cmax: 391, Difference: 33
+Cmin: 338, Cmax: 363, Difference: 25
 
 Class 3, Instance 6:
-Cmin: 384, Cmax: 413, Difference: 29
+Cmin: 355, Cmax: 382, Difference: 27
 
 Class 3, Instance 7:
-Cmin: 382, Cmax: 406, Difference: 24
+Cmin: 341, Cmax: 366, Difference: 25
 
 Class 3, Instance 8:
-Cmin: 362, Cmax: 389, Difference: 27
+Cmin: 404, Cmax: 431, Difference: 27
 
 Class 3, Instance 9:
-Cmin: 356, Cmax: 377, Difference: 21
+Cmin: 399, Cmax: 410, Difference: 11
 
 Class 3, Instance 10:
-Cmin: 377, Cmax: 417, Difference: 40
+Cmin: 296, Cmax: 309, Difference: 13
 
 Class 4, Instance 1:
-Cmin: 442, Cmax: 457, Difference: 15
+Cmin: 462, Cmax: 467, Difference: 5
 
 Class 4, Instance 2:
-Cmin: 459, Cmax: 473, Difference: 14
+Cmin: 454, Cmax: 471, Difference: 17
 
 Class 4, Instance 3:
-Cmin: 442, Cmax: 458, Difference: 16
+Cmin: 458, Cmax: 467, Difference: 9
 
 Class 4, Instance 4:
-Cmin: 454, Cmax: 464, Difference: 10
+Cmin: 454, Cmax: 463, Difference: 9
 
 Class 4, Instance 5:
-Cmin: 446, Cmax: 455, Difference: 9
+Cmin: 445, Cmax: 451, Difference: 6
 
 Class 4, Instance 6:
-Cmin: 442, Cmax: 449, Difference: 7
+Cmin: 450, Cmax: 464, Difference: 14
 
 Class 4, Instance 7:
-Cmin: 449, Cmax: 455, Difference: 6
+Cmin: 431, Cmax: 442, Difference: 11
 
 Class 4, Instance 8:
-Cmin: 434, Cmax: 442, Difference: 8
+Cmin: 459, Cmax: 464, Difference: 5
 
 Class 4, Instance 9:
-Cmin: 436, Cmax: 450, Difference: 14
+Cmin: 448, Cmax: 460, Difference: 12
 
 Class 4, Instance 10:
-Cmin: 431, Cmax: 443, Difference: 12
+Cmin: 456, Cmax: 464, Difference: 8
 
 Class 5, Instance 1:
-Cmin: 895, Cmax: 968, Difference: 73
+Cmin: 829, Cmax: 937, Difference: 108
 
 Class 5, Instance 2:
-Cmin: 914, Cmax: 1010, Difference: 96
+Cmin: 1041, Cmax: 1200, Difference: 159
 
 Class 5, Instance 3:
-Cmin: 1007, Cmax: 1061, Difference: 54
+Cmin: 796, Cmax: 900, Difference: 104
 
 Class 5, Instance 4:
-Cmin: 904, Cmax: 986, Difference: 82
+Cmin: 898, Cmax: 993, Difference: 95
 
 Class 5, Instance 5:
-Cmin: 897, Cmax: 1040, Difference: 143
+Cmin: 963, Cmax: 1037, Difference: 74
 
 Class 5, Instance 6:
-Cmin: 828, Cmax: 966, Difference: 138
+Cmin: 829, Cmax: 930, Difference: 101
 
 Class 5, Instance 7:
-Cmin: 944, Cmax: 1047, Difference: 103
+Cmin: 772, Cmax: 896, Difference: 124
 
 Class 5, Instance 8:
-Cmin: 803, Cmax: 870, Difference: 67
+Cmin: 831, Cmax: 1023, Difference: 192
 
 Class 5, Instance 9:
-Cmin: 727, Cmax: 827, Difference: 100
+Cmin: 805, Cmax: 874, Difference: 69
 
 Class 5, Instance 10:
-Cmin: 758, Cmax: 829, Difference: 71
+Cmin: 751, Cmax: 874, Difference: 123
+
+Class 6, Instance 1:
+Cmin: 208, Cmax: 245, Difference: 37
+
+Class 6, Instance 2:
+Cmin: 205, Cmax: 257, Difference: 52
+
+Class 6, Instance 3:
+Cmin: 248, Cmax: 288, Difference: 40
+
+Class 6, Instance 4:
+Cmin: 225, Cmax: 295, Difference: 70
+
+Class 6, Instance 5:
+Cmin: 219, Cmax: 280, Difference: 61
+
+Class 6, Instance 6:
+Cmin: 215, Cmax: 268, Difference: 53
+
+Class 6, Instance 7:
+Cmin: 221, Cmax: 257, Difference: 36
+
+Class 6, Instance 8:
+Cmin: 168, Cmax: 196, Difference: 28
+
+Class 6, Instance 9:
+Cmin: 307, Cmax: 333, Difference: 26
+
+Class 6, Instance 10:
+Cmin: 157, Cmax: 183, Difference: 26
+
+Class 7, Instance 1:
+Cmin: 331, Cmax: 369, Difference: 38
+
+Class 7, Instance 2:
+Cmin: 315, Cmax: 339, Difference: 24
+
+Class 7, Instance 3:
+Cmin: 356, Cmax: 373, Difference: 17
+
+Class 7, Instance 4:
+Cmin: 356, Cmax: 382, Difference: 26
+
+Class 7, Instance 5:
+Cmin: 278, Cmax: 302, Difference: 24
+
+Class 7, Instance 6:
+Cmin: 285, Cmax: 321, Difference: 36
+
+Class 7, Instance 7:
+Cmin: 275, Cmax: 307, Difference: 32
+
+Class 7, Instance 8:
+Cmin: 226, Cmax: 271, Difference: 45
+
+Class 7, Instance 9:
+Cmin: 267, Cmax: 284, Difference: 17
+
+Class 7, Instance 10:
+Cmin: 279, Cmax: 291, Difference: 12
+
+Class 8, Instance 1:
+Cmin: 377, Cmax: 403, Difference: 26
+
+Class 8, Instance 2:
+Cmin: 357, Cmax: 374, Difference: 17
+
+Class 8, Instance 3:
+Cmin: 326, Cmax: 346, Difference: 20
+
+Class 8, Instance 4:
+Cmin: 362, Cmax: 389, Difference: 27
+
+Class 8, Instance 5:
+Cmin: 345, Cmax: 377, Difference: 32
+
+Class 8, Instance 6:
+Cmin: 339, Cmax: 370, Difference: 31
+
+Class 8, Instance 7:
+Cmin: 337, Cmax: 364, Difference: 27
+
+Class 8, Instance 8:
+Cmin: 304, Cmax: 338, Difference: 34
+
+Class 8, Instance 9:
+Cmin: 345, Cmax: 370, Difference: 25
+
+Class 8, Instance 10:
+Cmin: 379, Cmax: 407, Difference: 28
+
+Class 9, Instance 1:
+Cmin: 435, Cmax: 451, Difference: 16
+
+Class 9, Instance 2:
+Cmin: 439, Cmax: 452, Difference: 13
+
+Class 9, Instance 3:
+Cmin: 440, Cmax: 452, Difference: 12
+
+Class 9, Instance 4:
+Cmin: 440, Cmax: 453, Difference: 13
+
+Class 9, Instance 5:
+Cmin: 455, Cmax: 464, Difference: 9
+
+Class 9, Instance 6:
+Cmin: 444, Cmax: 455, Difference: 11
+
+Class 9, Instance 7:
+Cmin: 452, Cmax: 460, Difference: 8
+
+Class 9, Instance 8:
+Cmin: 439, Cmax: 446, Difference: 7
+
+Class 9, Instance 9:
+Cmin: 453, Cmax: 465, Difference: 12
+
+Class 9, Instance 10:
+Cmin: 448, Cmax: 457, Difference: 9
+
+Class 10, Instance 1:
+Cmin: 827, Cmax: 914, Difference: 87
+
+Class 10, Instance 2:
+Cmin: 733, Cmax: 843, Difference: 110
+
+Class 10, Instance 3:
+Cmin: 982, Cmax: 1067, Difference: 85
+
+Class 10, Instance 4:
+Cmin: 1041, Cmax: 1074, Difference: 33
+
+Class 10, Instance 5:
+Cmin: 676, Cmax: 749, Difference: 73
+
+Class 10, Instance 6:
+Cmin: 1017, Cmax: 1124, Difference: 107
+
+Class 10, Instance 7:
+Cmin: 1123, Cmax: 1156, Difference: 33
+
+Class 10, Instance 8:
+Cmin: 882, Cmax: 1013, Difference: 131
+
+Class 10, Instance 9:
+Cmin: 973, Cmax: 1005, Difference: 32
+
+Class 10, Instance 10:
+Cmin: 993, Cmax: 1096, Difference: 103
+
+Class 11, Instance 1:
+Cmin: 225, Cmax: 266, Difference: 41
+
+Class 11, Instance 2:
+Cmin: 271, Cmax: 324, Difference: 53
+
+Class 11, Instance 3:
+Cmin: 204, Cmax: 281, Difference: 77
+
+Class 11, Instance 4:
+Cmin: 171, Cmax: 210, Difference: 39
+
+Class 11, Instance 5:
+Cmin: 128, Cmax: 189, Difference: 61
+
+Class 11, Instance 6:
+Cmin: 228, Cmax: 274, Difference: 46
+
+Class 11, Instance 7:
+Cmin: 313, Cmax: 346, Difference: 33
+
+Class 11, Instance 8:
+Cmin: 224, Cmax: 268, Difference: 44
+
+Class 11, Instance 9:
+Cmin: 327, Cmax: 350, Difference: 23
+
+Class 11, Instance 10:
+Cmin: 241, Cmax: 294, Difference: 53
+
+Class 12, Instance 1:
+Cmin: 335, Cmax: 371, Difference: 36
+
+Class 12, Instance 2:
+Cmin: 342, Cmax: 369, Difference: 27
+
+Class 12, Instance 3:
+Cmin: 305, Cmax: 340, Difference: 35
+
+Class 12, Instance 4:
+Cmin: 330, Cmax: 342, Difference: 12
+
+Class 12, Instance 5:
+Cmin: 277, Cmax: 296, Difference: 19
+
+Class 12, Instance 6:
+Cmin: 268, Cmax: 308, Difference: 40
+
+Class 12, Instance 7:
+Cmin: 294, Cmax: 338, Difference: 44
+
+Class 12, Instance 8:
+Cmin: 328, Cmax: 346, Difference: 18
+
+Class 12, Instance 9:
+Cmin: 351, Cmax: 374, Difference: 23
+
+Class 12, Instance 10:
+Cmin: 275, Cmax: 300, Difference: 25
+
+Class 13, Instance 1:
+Cmin: 353, Cmax: 382, Difference: 29
+
+Class 13, Instance 2:
+Cmin: 345, Cmax: 366, Difference: 21
+
+Class 13, Instance 3:
+Cmin: 354, Cmax: 380, Difference: 26
+
+Class 13, Instance 4:
+Cmin: 356, Cmax: 381, Difference: 25
+
+Class 13, Instance 5:
+Cmin: 369, Cmax: 398, Difference: 29
+
+Class 13, Instance 6:
+Cmin: 334, Cmax: 359, Difference: 25
+
+Class 13, Instance 7:
+Cmin: 355, Cmax: 377, Difference: 22
+
+Class 13, Instance 8:
+Cmin: 398, Cmax: 422, Difference: 24
+
+Class 13, Instance 9:
+Cmin: 340, Cmax: 360, Difference: 20
+
+Class 13, Instance 10:
+Cmin: 371, Cmax: 393, Difference: 22
+
+Class 14, Instance 1:
+Cmin: 434, Cmax: 446, Difference: 12
+
+Class 14, Instance 2:
+Cmin: 435, Cmax: 443, Difference: 8
+
+Class 14, Instance 3:
+Cmin: 449, Cmax: 456, Difference: 7
+
+Class 14, Instance 4:
+Cmin: 467, Cmax: 477, Difference: 10
+
+Class 14, Instance 5:
+Cmin: 452, Cmax: 463, Difference: 11
+
+Class 14, Instance 6:
+Cmin: 441, Cmax: 457, Difference: 16
+
+Class 14, Instance 7:
+Cmin: 438, Cmax: 446, Difference: 8
+
+Class 14, Instance 8:
+Cmin: 451, Cmax: 455, Difference: 4
+
+Class 14, Instance 9:
+Cmin: 447, Cmax: 454, Difference: 7
+
+Class 14, Instance 10:
+Cmin: 446, Cmax: 451, Difference: 5
+
+Class 15, Instance 1:
+Cmin: 1083, Cmax: 1203, Difference: 120
+
+Class 15, Instance 2:
+Cmin: 982, Cmax: 1064, Difference: 82
+
+Class 15, Instance 3:
+Cmin: 1102, Cmax: 1179, Difference: 77
+
+Class 15, Instance 4:
+Cmin: 846, Cmax: 915, Difference: 69
+
+Class 15, Instance 5:
+Cmin: 891, Cmax: 985, Difference: 94
+
+Class 15, Instance 6:
+Cmin: 901, Cmax: 1001, Difference: 100
+
+Class 15, Instance 7:
+Cmin: 904, Cmax: 979, Difference: 75
+
+Class 15, Instance 8:
+Cmin: 958, Cmax: 1067, Difference: 109
+
+Class 15, Instance 9:
+Cmin: 645, Cmax: 773, Difference: 128
+
+Class 15, Instance 10:
+Cmin: 1050, Cmax: 1122, Difference: 72
+
+Class 16, Instance 1:
+Cmin: 263, Cmax: 303, Difference: 40
+
+Class 16, Instance 2:
+Cmin: 185, Cmax: 248, Difference: 63
+
+Class 16, Instance 3:
+Cmin: 267, Cmax: 308, Difference: 41
+
+Class 16, Instance 4:
+Cmin: 307, Cmax: 351, Difference: 44
+
+Class 16, Instance 5:
+Cmin: 196, Cmax: 249, Difference: 53
+
+Class 16, Instance 6:
+Cmin: 220, Cmax: 288, Difference: 68
+
+Class 16, Instance 7:
+Cmin: 240, Cmax: 310, Difference: 70
+
+Class 16, Instance 8:
+Cmin: 202, Cmax: 248, Difference: 46
+
+Class 16, Instance 9:
+Cmin: 265, Cmax: 290, Difference: 25
+
+Class 16, Instance 10:
+Cmin: 189, Cmax: 239, Difference: 50
+
+Class 17, Instance 1:
+Cmin: 287, Cmax: 326, Difference: 39
+
+Class 17, Instance 2:
+Cmin: 280, Cmax: 317, Difference: 37
+
+Class 17, Instance 3:
+Cmin: 304, Cmax: 335, Difference: 31
+
+Class 17, Instance 4:
+Cmin: 325, Cmax: 375, Difference: 50
+
+Class 17, Instance 5:
+Cmin: 362, Cmax: 390, Difference: 28
+
+Class 17, Instance 6:
+Cmin: 315, Cmax: 345, Difference: 30
+
+Class 17, Instance 7:
+Cmin: 304, Cmax: 331, Difference: 27
+
+Class 17, Instance 8:
+Cmin: 289, Cmax: 341, Difference: 52
+
+Class 17, Instance 9:
+Cmin: 268, Cmax: 300, Difference: 32
+
+Class 17, Instance 10:
+Cmin: 311, Cmax: 346, Difference: 35
+
+Class 18, Instance 1:
+Cmin: 338, Cmax: 359, Difference: 21
+
+Class 18, Instance 2:
+Cmin: 383, Cmax: 406, Difference: 23
+
+Class 18, Instance 3:
+Cmin: 357, Cmax: 388, Difference: 31
+
+Class 18, Instance 4:
+Cmin: 364, Cmax: 380, Difference: 16
+
+Class 18, Instance 5:
+Cmin: 369, Cmax: 384, Difference: 15
+
+Class 18, Instance 6:
+Cmin: 354, Cmax: 390, Difference: 36
+
+Class 18, Instance 7:
+Cmin: 377, Cmax: 399, Difference: 22
+
+Class 18, Instance 8:
+Cmin: 294, Cmax: 327, Difference: 33
+
+Class 18, Instance 9:
+Cmin: 359, Cmax: 389, Difference: 30
+
+Class 18, Instance 10:
+Cmin: 375, Cmax: 395, Difference: 20
+
+Class 19, Instance 1:
+Cmin: 428, Cmax: 438, Difference: 10
+
+Class 19, Instance 2:
+Cmin: 430, Cmax: 439, Difference: 9
+
+Class 19, Instance 3:
+Cmin: 434, Cmax: 441, Difference: 7
+
+Class 19, Instance 4:
+Cmin: 453, Cmax: 460, Difference: 7
+
+Class 19, Instance 5:
+Cmin: 443, Cmax: 452, Difference: 9
+
+Class 19, Instance 6:
+Cmin: 451, Cmax: 460, Difference: 9
+
+Class 19, Instance 7:
+Cmin: 432, Cmax: 440, Difference: 8
+
+Class 19, Instance 8:
+Cmin: 427, Cmax: 434, Difference: 7
+
+Class 19, Instance 9:
+Cmin: 439, Cmax: 446, Difference: 7
+
+Class 19, Instance 10:
+Cmin: 457, Cmax: 466, Difference: 9
+
+Class 20, Instance 1:
+Cmin: 1060, Cmax: 1124, Difference: 64
+
+Class 20, Instance 2:
+Cmin: 901, Cmax: 1037, Difference: 136
+
+Class 20, Instance 3:
+Cmin: 965, Cmax: 1100, Difference: 135
+
+Class 20, Instance 4:
+Cmin: 845, Cmax: 916, Difference: 71
+
+Class 20, Instance 5:
+Cmin: 921, Cmax: 988, Difference: 67
+
+Class 20, Instance 6:
+Cmin: 672, Cmax: 753, Difference: 81
+
+Class 20, Instance 7:
+Cmin: 1004, Cmax: 1127, Difference: 123
+
+Class 20, Instance 8:
+Cmin: 1172, Cmax: 1221, Difference: 49
+
+Class 20, Instance 9:
+Cmin: 894, Cmax: 922, Difference: 28
+
+Class 20, Instance 10:
+Cmin: 1004, Cmax: 1158, Difference: 154
+
+Class 21, Instance 1:
+Cmin: 222, Cmax: 283, Difference: 61
+
+Class 21, Instance 2:
+Cmin: 222, Cmax: 255, Difference: 33
+
+Class 21, Instance 3:
+Cmin: 310, Cmax: 334, Difference: 24
+
+Class 21, Instance 4:
+Cmin: 282, Cmax: 309, Difference: 27
+
+Class 21, Instance 5:
+Cmin: 244, Cmax: 262, Difference: 18
+
+Class 21, Instance 6:
+Cmin: 322, Cmax: 342, Difference: 20
+
+Class 21, Instance 7:
+Cmin: 237, Cmax: 307, Difference: 70
+
+Class 21, Instance 8:
+Cmin: 200, Cmax: 245, Difference: 45
+
+Class 21, Instance 9:
+Cmin: 204, Cmax: 283, Difference: 79
+
+Class 21, Instance 10:
+Cmin: 228, Cmax: 258, Difference: 30
+
+Class 22, Instance 1:
+Cmin: 322, Cmax: 364, Difference: 42
+
+Class 22, Instance 2:
+Cmin: 258, Cmax: 284, Difference: 26
+
+Class 22, Instance 3:
+Cmin: 372, Cmax: 415, Difference: 43
+
+Class 22, Instance 4:
+Cmin: 320, Cmax: 356, Difference: 36
+
+Class 22, Instance 5:
+Cmin: 309, Cmax: 336, Difference: 27
+
+Class 22, Instance 6:
+Cmin: 291, Cmax: 331, Difference: 40
+
+Class 22, Instance 7:
+Cmin: 353, Cmax: 378, Difference: 25
+
+Class 22, Instance 8:
+Cmin: 286, Cmax: 324, Difference: 38
+
+Class 22, Instance 9:
+Cmin: 334, Cmax: 357, Difference: 23
+
+Class 22, Instance 10:
+Cmin: 303, Cmax: 328, Difference: 25
+
+Class 23, Instance 1:
+Cmin: 388, Cmax: 401, Difference: 13
+
+Class 23, Instance 2:
+Cmin: 361, Cmax: 379, Difference: 18
+
+Class 23, Instance 3:
+Cmin: 361, Cmax: 389, Difference: 28
+
+Class 23, Instance 4:
+Cmin: 323, Cmax: 353, Difference: 30
+
+Class 23, Instance 5:
+Cmin: 306, Cmax: 329, Difference: 23
+
+Class 23, Instance 6:
+Cmin: 378, Cmax: 391, Difference: 13
+
+Class 23, Instance 7:
+Cmin: 371, Cmax: 409, Difference: 38
+
+Class 23, Instance 8:
+Cmin: 380, Cmax: 404, Difference: 24
+
+Class 23, Instance 9:
+Cmin: 340, Cmax: 347, Difference: 7
+
+Class 23, Instance 10:
+Cmin: 364, Cmax: 390, Difference: 26
+
+Class 24, Instance 1:
+Cmin: 451, Cmax: 457, Difference: 6
+
+Class 24, Instance 2:
+Cmin: 435, Cmax: 441, Difference: 6
+
+Class 24, Instance 3:
+Cmin: 443, Cmax: 450, Difference: 7
+
+Class 24, Instance 4:
+Cmin: 439, Cmax: 451, Difference: 12
+
+Class 24, Instance 5:
+Cmin: 453, Cmax: 461, Difference: 8
+
+Class 24, Instance 6:
+Cmin: 457, Cmax: 467, Difference: 10
+
+Class 24, Instance 7:
+Cmin: 449, Cmax: 459, Difference: 10
+
+Class 24, Instance 8:
+Cmin: 436, Cmax: 447, Difference: 11
+
+Class 24, Instance 9:
+Cmin: 427, Cmax: 436, Difference: 9
+
+Class 24, Instance 10:
+Cmin: 459, Cmax: 469, Difference: 10
+
+Class 25, Instance 1:
+Cmin: 795, Cmax: 937, Difference: 142
+
+Class 25, Instance 2:
+Cmin: 875, Cmax: 923, Difference: 48
+
+Class 25, Instance 3:
+Cmin: 1077, Cmax: 1157, Difference: 80
+
+Class 25, Instance 4:
+Cmin: 908, Cmax: 1013, Difference: 105
+
+Class 25, Instance 5:
+Cmin: 929, Cmax: 1058, Difference: 129
+
+Class 25, Instance 6:
+Cmin: 1021, Cmax: 1183, Difference: 162
+
+Class 25, Instance 7:
+Cmin: 1069, Cmax: 1131, Difference: 62
+
+Class 25, Instance 8:
+Cmin: 959, Cmax: 1065, Difference: 106
+
+Class 25, Instance 9:
+Cmin: 896, Cmax: 1014, Difference: 118
+
+Class 25, Instance 10:
+Cmin: 946, Cmax: 974, Difference: 28
+
+Class 26, Instance 1:
+Cmin: 234, Cmax: 302, Difference: 68
+
+Class 26, Instance 2:
+Cmin: 300, Cmax: 341, Difference: 41
+
+Class 26, Instance 3:
+Cmin: 261, Cmax: 303, Difference: 42
+
+Class 26, Instance 4:
+Cmin: 309, Cmax: 338, Difference: 29
+
+Class 26, Instance 5:
+Cmin: 161, Cmax: 224, Difference: 63
+
+Class 26, Instance 6:
+Cmin: 131, Cmax: 174, Difference: 43
+
+Class 26, Instance 7:
+Cmin: 157, Cmax: 191, Difference: 34
+
+Class 26, Instance 8:
+Cmin: 244, Cmax: 285, Difference: 41
+
+Class 26, Instance 9:
+Cmin: 184, Cmax: 244, Difference: 60
+
+Class 26, Instance 10:
+Cmin: 199, Cmax: 238, Difference: 39
+
+Class 27, Instance 1:
+Cmin: 318, Cmax: 350, Difference: 32
+
+Class 27, Instance 2:
+Cmin: 341, Cmax: 393, Difference: 52
+
+Class 27, Instance 3:
+Cmin: 303, Cmax: 324, Difference: 21
+
+Class 27, Instance 4:
+Cmin: 324, Cmax: 369, Difference: 45
+
+Class 27, Instance 5:
+Cmin: 307, Cmax: 329, Difference: 22
+
+Class 27, Instance 6:
+Cmin: 297, Cmax: 333, Difference: 36
+
+Class 27, Instance 7:
+Cmin: 304, Cmax: 330, Difference: 26
+
+Class 27, Instance 8:
+Cmin: 357, Cmax: 372, Difference: 15
+
+Class 27, Instance 9:
+Cmin: 276, Cmax: 317, Difference: 41
+
+Class 27, Instance 10:
+Cmin: 297, Cmax: 344, Difference: 47
+
+Class 28, Instance 1:
+Cmin: 410, Cmax: 425, Difference: 15
+
+Class 28, Instance 2:
+Cmin: 384, Cmax: 410, Difference: 26
+
+Class 28, Instance 3:
+Cmin: 339, Cmax: 349, Difference: 10
+
+Class 28, Instance 4:
+Cmin: 348, Cmax: 378, Difference: 30
+
+Class 28, Instance 5:
+Cmin: 339, Cmax: 363, Difference: 24
+
+Class 28, Instance 6:
+Cmin: 362, Cmax: 381, Difference: 19
+
+Class 28, Instance 7:
+Cmin: 365, Cmax: 392, Difference: 27
+
+Class 28, Instance 8:
+Cmin: 325, Cmax: 349, Difference: 24
+
+Class 28, Instance 9:
+Cmin: 375, Cmax: 403, Difference: 28
+
+Class 28, Instance 10:
+Cmin: 353, Cmax: 397, Difference: 44
+
+Class 29, Instance 1:
+Cmin: 442, Cmax: 455, Difference: 13
+
+Class 29, Instance 2:
+Cmin: 452, Cmax: 465, Difference: 13
+
+Class 29, Instance 3:
+Cmin: 449, Cmax: 462, Difference: 13
+
+Class 29, Instance 4:
+Cmin: 443, Cmax: 460, Difference: 17
+
+Class 29, Instance 5:
+Cmin: 447, Cmax: 461, Difference: 14
+
+Class 29, Instance 6:
+Cmin: 452, Cmax: 463, Difference: 11
+
+Class 29, Instance 7:
+Cmin: 446, Cmax: 465, Difference: 19
+
+Class 29, Instance 8:
+Cmin: 439, Cmax: 447, Difference: 8
+
+Class 29, Instance 9:
+Cmin: 445, Cmax: 456, Difference: 11
+
+Class 29, Instance 10:
+Cmin: 444, Cmax: 454, Difference: 10
+
+Class 30, Instance 1:
+Cmin: 809, Cmax: 902, Difference: 93
+
+Class 30, Instance 2:
+Cmin: 1002, Cmax: 1118, Difference: 116
+
+Class 30, Instance 3:
+Cmin: 748, Cmax: 802, Difference: 54
+
+Class 30, Instance 4:
+Cmin: 796, Cmax: 891, Difference: 95
+
+Class 30, Instance 5:
+Cmin: 1011, Cmax: 1105, Difference: 94
+
+Class 30, Instance 6:
+Cmin: 781, Cmax: 863, Difference: 82
+
+Class 30, Instance 7:
+Cmin: 786, Cmax: 858, Difference: 72
+
+Class 30, Instance 8:
+Cmin: 792, Cmax: 936, Difference: 144
+
+Class 30, Instance 9:
+Cmin: 882, Cmax: 955, Difference: 73
+
+Class 30, Instance 10:
+Cmin: 923, Cmax: 1082, Difference: 159
+
+Class 31, Instance 1:
+Cmin: 206, Cmax: 248, Difference: 42
+
+Class 31, Instance 2:
+Cmin: 247, Cmax: 287, Difference: 40
+
+Class 31, Instance 3:
+Cmin: 276, Cmax: 343, Difference: 67
+
+Class 31, Instance 4:
+Cmin: 259, Cmax: 310, Difference: 51
+
+Class 31, Instance 5:
+Cmin: 214, Cmax: 274, Difference: 60
+
+Class 31, Instance 6:
+Cmin: 212, Cmax: 246, Difference: 34
+
+Class 31, Instance 7:
+Cmin: 227, Cmax: 278, Difference: 51
+
+Class 31, Instance 8:
+Cmin: 234, Cmax: 282, Difference: 48
+
+Class 31, Instance 9:
+Cmin: 187, Cmax: 246, Difference: 59
+
+Class 31, Instance 10:
+Cmin: 264, Cmax: 319, Difference: 55
+
+Class 32, Instance 1:
+Cmin: 270, Cmax: 314, Difference: 44
+
+Class 32, Instance 2:
+Cmin: 296, Cmax: 340, Difference: 44
+
+Class 32, Instance 3:
+Cmin: 283, Cmax: 334, Difference: 51
+
+Class 32, Instance 4:
+Cmin: 318, Cmax: 350, Difference: 32
+
+Class 32, Instance 5:
+Cmin: 304, Cmax: 352, Difference: 48
+
+Class 32, Instance 6:
+Cmin: 288, Cmax: 305, Difference: 17
+
+Class 32, Instance 7:
+Cmin: 309, Cmax: 322, Difference: 13
+
+Class 32, Instance 8:
+Cmin: 323, Cmax: 373, Difference: 50
+
+Class 32, Instance 9:
+Cmin: 329, Cmax: 363, Difference: 34
+
+Class 32, Instance 10:
+Cmin: 276, Cmax: 305, Difference: 29
+
+Class 33, Instance 1:
+Cmin: 364, Cmax: 381, Difference: 17
+
+Class 33, Instance 2:
+Cmin: 366, Cmax: 390, Difference: 24
+
+Class 33, Instance 3:
+Cmin: 393, Cmax: 411, Difference: 18
+
+Class 33, Instance 4:
+Cmin: 378, Cmax: 409, Difference: 31
+
+Class 33, Instance 5:
+Cmin: 349, Cmax: 376, Difference: 27
+
+Class 33, Instance 6:
+Cmin: 307, Cmax: 343, Difference: 36
+
+Class 33, Instance 7:
+Cmin: 363, Cmax: 392, Difference: 29
+
+Class 33, Instance 8:
+Cmin: 387, Cmax: 403, Difference: 16
+
+Class 33, Instance 9:
+Cmin: 304, Cmax: 344, Difference: 40
+
+Class 33, Instance 10:
+Cmin: 358, Cmax: 378, Difference: 20
+
+Class 34, Instance 1:
+Cmin: 447, Cmax: 454, Difference: 7
+
+Class 34, Instance 2:
+Cmin: 438, Cmax: 445, Difference: 7
+
+Class 34, Instance 3:
+Cmin: 450, Cmax: 459, Difference: 9
+
+Class 34, Instance 4:
+Cmin: 446, Cmax: 455, Difference: 9
+
+Class 34, Instance 5:
+Cmin: 442, Cmax: 451, Difference: 9
+
+Class 34, Instance 6:
+Cmin: 427, Cmax: 443, Difference: 16
+
+Class 34, Instance 7:
+Cmin: 463, Cmax: 471, Difference: 8
+
+Class 34, Instance 8:
+Cmin: 455, Cmax: 463, Difference: 8
+
+Class 34, Instance 9:
+Cmin: 431, Cmax: 445, Difference: 14
+
+Class 34, Instance 10:
+Cmin: 445, Cmax: 453, Difference: 8
+
+Class 35, Instance 1:
+Cmin: 752, Cmax: 836, Difference: 84
+
+Class 35, Instance 2:
+Cmin: 984, Cmax: 1102, Difference: 118
+
+Class 35, Instance 3:
+Cmin: 967, Cmax: 1047, Difference: 80
+
+Class 35, Instance 4:
+Cmin: 787, Cmax: 914, Difference: 127
+
+Class 35, Instance 5:
+Cmin: 732, Cmax: 842, Difference: 110
+
+Class 35, Instance 6:
+Cmin: 834, Cmax: 914, Difference: 80
+
+Class 35, Instance 7:
+Cmin: 985, Cmax: 1093, Difference: 108
+
+Class 35, Instance 8:
+Cmin: 1056, Cmax: 1174, Difference: 118
+
+Class 35, Instance 9:
+Cmin: 941, Cmax: 1010, Difference: 69
+
+Class 35, Instance 10:
+Cmin: 1014, Cmax: 1099, Difference: 85
+
+Class 36, Instance 1:
+Cmin: 332, Cmax: 358, Difference: 26
+
+Class 36, Instance 2:
+Cmin: 315, Cmax: 353, Difference: 38
+
+Class 36, Instance 3:
+Cmin: 370, Cmax: 394, Difference: 24
+
+Class 36, Instance 4:
+Cmin: 243, Cmax: 279, Difference: 36
+
+Class 36, Instance 5:
+Cmin: 179, Cmax: 201, Difference: 22
+
+Class 36, Instance 6:
+Cmin: 274, Cmax: 324, Difference: 50
+
+Class 36, Instance 7:
+Cmin: 264, Cmax: 303, Difference: 39
+
+Class 36, Instance 8:
+Cmin: 226, Cmax: 265, Difference: 39
+
+Class 36, Instance 9:
+Cmin: 311, Cmax: 364, Difference: 53
+
+Class 36, Instance 10:
+Cmin: 167, Cmax: 210, Difference: 43
+
+Class 37, Instance 1:
+Cmin: 279, Cmax: 299, Difference: 20
+
+Class 37, Instance 2:
+Cmin: 276, Cmax: 307, Difference: 31
+
+Class 37, Instance 3:
+Cmin: 330, Cmax: 359, Difference: 29
+
+Class 37, Instance 4:
+Cmin: 269, Cmax: 313, Difference: 44
+
+Class 37, Instance 5:
+Cmin: 298, Cmax: 340, Difference: 42
+
+Class 37, Instance 6:
+Cmin: 317, Cmax: 336, Difference: 19
+
+Class 37, Instance 7:
+Cmin: 255, Cmax: 280, Difference: 25
+
+Class 37, Instance 8:
+Cmin: 311, Cmax: 343, Difference: 32
+
+Class 37, Instance 9:
+Cmin: 301, Cmax: 339, Difference: 38
+
+Class 37, Instance 10:
+Cmin: 246, Cmax: 268, Difference: 22
+
+Class 38, Instance 1:
+Cmin: 321, Cmax: 339, Difference: 18
+
+Class 38, Instance 2:
+Cmin: 303, Cmax: 338, Difference: 35
+
+Class 38, Instance 3:
+Cmin: 348, Cmax: 380, Difference: 32
+
+Class 38, Instance 4:
+Cmin: 353, Cmax: 373, Difference: 20
+
+Class 38, Instance 5:
+Cmin: 364, Cmax: 383, Difference: 19
+
+Class 38, Instance 6:
+Cmin: 365, Cmax: 390, Difference: 25
+
+Class 38, Instance 7:
+Cmin: 363, Cmax: 399, Difference: 36
+
+Class 38, Instance 8:
+Cmin: 390, Cmax: 414, Difference: 24
+
+Class 38, Instance 9:
+Cmin: 400, Cmax: 417, Difference: 17
+
+Class 38, Instance 10:
+Cmin: 309, Cmax: 326, Difference: 17
+
+Class 39, Instance 1:
+Cmin: 446, Cmax: 455, Difference: 9
+
+Class 39, Instance 2:
+Cmin: 446, Cmax: 461, Difference: 15
+
+Class 39, Instance 3:
+Cmin: 433, Cmax: 445, Difference: 12
+
+Class 39, Instance 4:
+Cmin: 438, Cmax: 448, Difference: 10
+
+Class 39, Instance 5:
+Cmin: 422, Cmax: 432, Difference: 10
+
+Class 39, Instance 6:
+Cmin: 459, Cmax: 470, Difference: 11
+
+Class 39, Instance 7:
+Cmin: 447, Cmax: 453, Difference: 6
+
+Class 39, Instance 8:
+Cmin: 457, Cmax: 467, Difference: 10
+
+Class 39, Instance 9:
+Cmin: 458, Cmax: 470, Difference: 12
+
+Class 39, Instance 10:
+Cmin: 447, Cmax: 455, Difference: 8
+
+Class 40, Instance 1:
+Cmin: 987, Cmax: 1086, Difference: 99
+
+Class 40, Instance 2:
+Cmin: 971, Cmax: 1086, Difference: 115
+
+Class 40, Instance 3:
+Cmin: 853, Cmax: 983, Difference: 130
+
+Class 40, Instance 4:
+Cmin: 829, Cmax: 932, Difference: 103
+
+Class 40, Instance 5:
+Cmin: 721, Cmax: 818, Difference: 97
+
+Class 40, Instance 6:
+Cmin: 1134, Cmax: 1197, Difference: 63
+
+Class 40, Instance 7:
+Cmin: 807, Cmax: 970, Difference: 163
+
+Class 40, Instance 8:
+Cmin: 1004, Cmax: 1145, Difference: 141
+
+Class 40, Instance 9:
+Cmin: 1023, Cmax: 1082, Difference: 59
+
+Class 40, Instance 10:
+Cmin: 815, Cmax: 933, Difference: 118
+
+Class 41, Instance 1:
+Cmin: 199, Cmax: 259, Difference: 60
+
+Class 41, Instance 2:
+Cmin: 288, Cmax: 344, Difference: 56
+
+Class 41, Instance 3:
+Cmin: 264, Cmax: 309, Difference: 45
+
+Class 41, Instance 4:
+Cmin: 225, Cmax: 277, Difference: 52
+
+Class 41, Instance 5:
+Cmin: 246, Cmax: 282, Difference: 36
+
+Class 41, Instance 6:
+Cmin: 257, Cmax: 299, Difference: 42
+
+Class 41, Instance 7:
+Cmin: 237, Cmax: 259, Difference: 22
+
+Class 41, Instance 8:
+Cmin: 245, Cmax: 298, Difference: 53
+
+Class 41, Instance 9:
+Cmin: 272, Cmax: 283, Difference: 11
+
+Class 41, Instance 10:
+Cmin: 329, Cmax: 402, Difference: 73
+
+Class 42, Instance 1:
+Cmin: 323, Cmax: 346, Difference: 23
+
+Class 42, Instance 2:
+Cmin: 326, Cmax: 363, Difference: 37
+
+Class 42, Instance 3:
+Cmin: 310, Cmax: 355, Difference: 45
+
+Class 42, Instance 4:
+Cmin: 341, Cmax: 364, Difference: 23
+
+Class 42, Instance 5:
+Cmin: 321, Cmax: 374, Difference: 53
+
+Class 42, Instance 6:
+Cmin: 326, Cmax: 366, Difference: 40
+
+Class 42, Instance 7:
+Cmin: 277, Cmax: 316, Difference: 39
+
+Class 42, Instance 8:
+Cmin: 389, Cmax: 401, Difference: 12
+
+Class 42, Instance 9:
+Cmin: 269, Cmax: 286, Difference: 17
+
+Class 42, Instance 10:
+Cmin: 217, Cmax: 232, Difference: 15
+
+Class 43, Instance 1:
+Cmin: 363, Cmax: 374, Difference: 11
+
+Class 43, Instance 2:
+Cmin: 366, Cmax: 386, Difference: 20
+
+Class 43, Instance 3:
+Cmin: 356, Cmax: 380, Difference: 24
+
+Class 43, Instance 4:
+Cmin: 359, Cmax: 394, Difference: 35
+
+Class 43, Instance 5:
+Cmin: 383, Cmax: 398, Difference: 15
+
+Class 43, Instance 6:
+Cmin: 403, Cmax: 427, Difference: 24
+
+Class 43, Instance 7:
+Cmin: 407, Cmax: 430, Difference: 23
+
+Class 43, Instance 8:
+Cmin: 328, Cmax: 358, Difference: 30
+
+Class 43, Instance 9:
+Cmin: 369, Cmax: 385, Difference: 16
+
+Class 43, Instance 10:
+Cmin: 355, Cmax: 374, Difference: 19
+
+Class 44, Instance 1:
+Cmin: 451, Cmax: 461, Difference: 10
+
+Class 44, Instance 2:
+Cmin: 450, Cmax: 467, Difference: 17
+
+Class 44, Instance 3:
+Cmin: 458, Cmax: 464, Difference: 6
+
+Class 44, Instance 4:
+Cmin: 448, Cmax: 461, Difference: 13
+
+Class 44, Instance 5:
+Cmin: 430, Cmax: 444, Difference: 14
+
+Class 44, Instance 6:
+Cmin: 447, Cmax: 450, Difference: 3
+
+Class 44, Instance 7:
+Cmin: 437, Cmax: 442, Difference: 5
+
+Class 44, Instance 8:
+Cmin: 429, Cmax: 439, Difference: 10
+
+Class 44, Instance 9:
+Cmin: 443, Cmax: 454, Difference: 11
+
+Class 44, Instance 10:
+Cmin: 448, Cmax: 457, Difference: 9
+
+Class 45, Instance 1:
+Cmin: 924, Cmax: 983, Difference: 59
+
+Class 45, Instance 2:
+Cmin: 796, Cmax: 939, Difference: 143
+
+Class 45, Instance 3:
+Cmin: 956, Cmax: 1050, Difference: 94
+
+Class 45, Instance 4:
+Cmin: 716, Cmax: 848, Difference: 132
+
+Class 45, Instance 5:
+Cmin: 959, Cmax: 1074, Difference: 115
+
+Class 45, Instance 6:
+Cmin: 775, Cmax: 870, Difference: 95
+
+Class 45, Instance 7:
+Cmin: 933, Cmax: 974, Difference: 41
+
+Class 45, Instance 8:
+Cmin: 880, Cmax: 1038, Difference: 158
+
+Class 45, Instance 9:
+Cmin: 790, Cmax: 956, Difference: 166
+
+Class 45, Instance 10:
+Cmin: 751, Cmax: 871, Difference: 120
+
+Class 46, Instance 1:
+Cmin: 284, Cmax: 328, Difference: 44
+
+Class 46, Instance 2:
+Cmin: 227, Cmax: 284, Difference: 57
+
+Class 46, Instance 3:
+Cmin: 203, Cmax: 265, Difference: 62
+
+Class 46, Instance 4:
+Cmin: 185, Cmax: 255, Difference: 70
+
+Class 46, Instance 5:
+Cmin: 205, Cmax: 229, Difference: 24
+
+Class 46, Instance 6:
+Cmin: 200, Cmax: 263, Difference: 63
+
+Class 46, Instance 7:
+Cmin: 266, Cmax: 298, Difference: 32
+
+Class 46, Instance 8:
+Cmin: 271, Cmax: 318, Difference: 47
+
+Class 46, Instance 9:
+Cmin: 187, Cmax: 247, Difference: 60
+
+Class 46, Instance 10:
+Cmin: 193, Cmax: 268, Difference: 75
+
+Class 47, Instance 1:
+Cmin: 327, Cmax: 355, Difference: 28
+
+Class 47, Instance 2:
+Cmin: 310, Cmax: 333, Difference: 23
+
+Class 47, Instance 3:
+Cmin: 283, Cmax: 323, Difference: 40
+
+Class 47, Instance 4:
+Cmin: 351, Cmax: 396, Difference: 45
+
+Class 47, Instance 5:
+Cmin: 333, Cmax: 362, Difference: 29
+
+Class 47, Instance 6:
+Cmin: 293, Cmax: 329, Difference: 36
+
+Class 47, Instance 7:
+Cmin: 324, Cmax: 356, Difference: 32
+
+Class 47, Instance 8:
+Cmin: 299, Cmax: 349, Difference: 50
+
+Class 47, Instance 9:
+Cmin: 279, Cmax: 304, Difference: 25
+
+Class 47, Instance 10:
+Cmin: 329, Cmax: 359, Difference: 30
+
+Class 48, Instance 1:
+Cmin: 384, Cmax: 402, Difference: 18
+
+Class 48, Instance 2:
+Cmin: 338, Cmax: 366, Difference: 28
+
+Class 48, Instance 3:
+Cmin: 374, Cmax: 414, Difference: 40
+
+Class 48, Instance 4:
+Cmin: 383, Cmax: 399, Difference: 16
+
+Class 48, Instance 5:
+Cmin: 363, Cmax: 370, Difference: 7
+
+Class 48, Instance 6:
+Cmin: 371, Cmax: 391, Difference: 20
+
+Class 48, Instance 7:
+Cmin: 385, Cmax: 411, Difference: 26
+
+Class 48, Instance 8:
+Cmin: 320, Cmax: 346, Difference: 26
+
+Class 48, Instance 9:
+Cmin: 371, Cmax: 381, Difference: 10
+
+Class 48, Instance 10:
+Cmin: 338, Cmax: 368, Difference: 30
+
+Class 49, Instance 1:
+Cmin: 442, Cmax: 448, Difference: 6
+
+Class 49, Instance 2:
+Cmin: 433, Cmax: 438, Difference: 5
+
+Class 49, Instance 3:
+Cmin: 449, Cmax: 459, Difference: 10
+
+Class 49, Instance 4:
+Cmin: 445, Cmax: 456, Difference: 11
+
+Class 49, Instance 5:
+Cmin: 448, Cmax: 462, Difference: 14
+
+Class 49, Instance 6:
+Cmin: 442, Cmax: 452, Difference: 10
+
+Class 49, Instance 7:
+Cmin: 451, Cmax: 462, Difference: 11
+
+Class 49, Instance 8:
+Cmin: 450, Cmax: 457, Difference: 7
+
+Class 49, Instance 9:
+Cmin: 453, Cmax: 463, Difference: 10
+
+Class 49, Instance 10:
+Cmin: 439, Cmax: 453, Difference: 14
+
+Class 50, Instance 1:
+Cmin: 1036, Cmax: 1106, Difference: 70
+
+Class 50, Instance 2:
+Cmin: 1021, Cmax: 1127, Difference: 106
+
+Class 50, Instance 3:
+Cmin: 810, Cmax: 999, Difference: 189
+
+Class 50, Instance 4:
+Cmin: 821, Cmax: 980, Difference: 159
+
+Class 50, Instance 5:
+Cmin: 1014, Cmax: 1065, Difference: 51
+
+Class 50, Instance 6:
+Cmin: 952, Cmax: 1074, Difference: 122
+
+Class 50, Instance 7:
+Cmin: 791, Cmax: 970, Difference: 179
+
+Class 50, Instance 8:
+Cmin: 1007, Cmax: 1103, Difference: 96
+
+Class 50, Instance 9:
+Cmin: 906, Cmax: 988, Difference: 82
+
+Class 50, Instance 10:
+Cmin: 855, Cmax: 965, Difference: 110
+
+Class 51, Instance 1:
+Cmin: 253, Cmax: 280, Difference: 27
+
+Class 51, Instance 2:
+Cmin: 179, Cmax: 202, Difference: 23
+
+Class 51, Instance 3:
+Cmin: 164, Cmax: 197, Difference: 33
+
+Class 51, Instance 4:
+Cmin: 278, Cmax: 312, Difference: 34
+
+Class 51, Instance 5:
+Cmin: 179, Cmax: 220, Difference: 41
+
+Class 51, Instance 6:
+Cmin: 212, Cmax: 281, Difference: 69
+
+Class 51, Instance 7:
+Cmin: 268, Cmax: 319, Difference: 51
+
+Class 51, Instance 8:
+Cmin: 247, Cmax: 295, Difference: 48
+
+Class 51, Instance 9:
+Cmin: 188, Cmax: 237, Difference: 49
+
+Class 51, Instance 10:
+Cmin: 237, Cmax: 263, Difference: 26
+
+Class 52, Instance 1:
+Cmin: 328, Cmax: 360, Difference: 32
+
+Class 52, Instance 2:
+Cmin: 279, Cmax: 310, Difference: 31
+
+Class 52, Instance 3:
+Cmin: 328, Cmax: 372, Difference: 44
+
+Class 52, Instance 4:
+Cmin: 318, Cmax: 344, Difference: 26
+
+Class 52, Instance 5:
+Cmin: 264, Cmax: 303, Difference: 39
+
+Class 52, Instance 6:
+Cmin: 251, Cmax: 307, Difference: 56
+
+Class 52, Instance 7:
+Cmin: 326, Cmax: 346, Difference: 20
+
+Class 52, Instance 8:
+Cmin: 293, Cmax: 326, Difference: 33
+
+Class 52, Instance 9:
+Cmin: 354, Cmax: 366, Difference: 12
+
+Class 52, Instance 10:
+Cmin: 286, Cmax: 336, Difference: 50
+
+Class 53, Instance 1:
+Cmin: 391, Cmax: 400, Difference: 9
+
+Class 53, Instance 2:
+Cmin: 352, Cmax: 364, Difference: 12
+
+Class 53, Instance 3:
+Cmin: 336, Cmax: 359, Difference: 23
+
+Class 53, Instance 4:
+Cmin: 381, Cmax: 411, Difference: 30
+
+Class 53, Instance 5:
+Cmin: 344, Cmax: 370, Difference: 26
+
+Class 53, Instance 6:
+Cmin: 342, Cmax: 371, Difference: 29
+
+Class 53, Instance 7:
+Cmin: 346, Cmax: 368, Difference: 22
+
+Class 53, Instance 8:
+Cmin: 348, Cmax: 359, Difference: 11
+
+Class 53, Instance 9:
+Cmin: 380, Cmax: 404, Difference: 24
+
+Class 53, Instance 10:
+Cmin: 365, Cmax: 388, Difference: 23
+
+Class 54, Instance 1:
+Cmin: 459, Cmax: 467, Difference: 8
+
+Class 54, Instance 2:
+Cmin: 435, Cmax: 439, Difference: 4
+
+Class 54, Instance 3:
+Cmin: 447, Cmax: 452, Difference: 5
+
+Class 54, Instance 4:
+Cmin: 436, Cmax: 452, Difference: 16
+
+Class 54, Instance 5:
+Cmin: 432, Cmax: 442, Difference: 10
+
+Class 54, Instance 6:
+Cmin: 457, Cmax: 470, Difference: 13
+
+Class 54, Instance 7:
+Cmin: 456, Cmax: 464, Difference: 8
+
+Class 54, Instance 8:
+Cmin: 456, Cmax: 466, Difference: 10
+
+Class 54, Instance 9:
+Cmin: 456, Cmax: 465, Difference: 9
+
+Class 54, Instance 10:
+Cmin: 456, Cmax: 467, Difference: 11
+
+Class 55, Instance 1:
+Cmin: 948, Cmax: 1043, Difference: 95
+
+Class 55, Instance 2:
+Cmin: 837, Cmax: 960, Difference: 123
+
+Class 55, Instance 3:
+Cmin: 910, Cmax: 1005, Difference: 95
+
+Class 55, Instance 4:
+Cmin: 700, Cmax: 879, Difference: 179
+
+Class 55, Instance 5:
+Cmin: 765, Cmax: 851, Difference: 86
+
+Class 55, Instance 6:
+Cmin: 951, Cmax: 1081, Difference: 130
+
+Class 55, Instance 7:
+Cmin: 725, Cmax: 829, Difference: 104
+
+Class 55, Instance 8:
+Cmin: 825, Cmax: 963, Difference: 138
+
+Class 55, Instance 9:
+Cmin: 873, Cmax: 1002, Difference: 129
+
+Class 55, Instance 10:
+Cmin: 1057, Cmax: 1183, Difference: 126
+
+Class 56, Instance 1:
+Cmin: 226, Cmax: 258, Difference: 32
+
+Class 56, Instance 2:
+Cmin: 146, Cmax: 183, Difference: 37
+
+Class 56, Instance 3:
+Cmin: 224, Cmax: 292, Difference: 68
+
+Class 56, Instance 4:
+Cmin: 295, Cmax: 333, Difference: 38
+
+Class 56, Instance 5:
+Cmin: 220, Cmax: 262, Difference: 42
+
+Class 56, Instance 6:
+Cmin: 235, Cmax: 280, Difference: 45
+
+Class 56, Instance 7:
+Cmin: 214, Cmax: 259, Difference: 45
+
+Class 56, Instance 8:
+Cmin: 244, Cmax: 299, Difference: 55
+
+Class 56, Instance 9:
+Cmin: 174, Cmax: 188, Difference: 14
+
+Class 56, Instance 10:
+Cmin: 193, Cmax: 243, Difference: 50
+
+Class 57, Instance 1:
+Cmin: 302, Cmax: 328, Difference: 26
+
+Class 57, Instance 2:
+Cmin: 305, Cmax: 344, Difference: 39
+
+Class 57, Instance 3:
+Cmin: 279, Cmax: 315, Difference: 36
+
+Class 57, Instance 4:
+Cmin: 231, Cmax: 272, Difference: 41
+
+Class 57, Instance 5:
+Cmin: 333, Cmax: 341, Difference: 8
+
+Class 57, Instance 6:
+Cmin: 226, Cmax: 252, Difference: 26
+
+Class 57, Instance 7:
+Cmin: 239, Cmax: 265, Difference: 26
+
+Class 57, Instance 8:
+Cmin: 367, Cmax: 397, Difference: 30
+
+Class 57, Instance 9:
+Cmin: 240, Cmax: 273, Difference: 33
+
+Class 57, Instance 10:
+Cmin: 231, Cmax: 255, Difference: 24
+
+Class 58, Instance 1:
+Cmin: 347, Cmax: 372, Difference: 25
+
+Class 58, Instance 2:
+Cmin: 311, Cmax: 338, Difference: 27
+
+Class 58, Instance 3:
+Cmin: 357, Cmax: 382, Difference: 25
+
+Class 58, Instance 4:
+Cmin: 351, Cmax: 371, Difference: 20
+
+Class 58, Instance 5:
+Cmin: 345, Cmax: 379, Difference: 34
+
+Class 58, Instance 6:
+Cmin: 395, Cmax: 421, Difference: 26
+
+Class 58, Instance 7:
+Cmin: 387, Cmax: 402, Difference: 15
+
+Class 58, Instance 8:
+Cmin: 373, Cmax: 396, Difference: 23
+
+Class 58, Instance 9:
+Cmin: 374, Cmax: 388, Difference: 14
+
+Class 58, Instance 10:
+Cmin: 418, Cmax: 432, Difference: 14
+
+Class 59, Instance 1:
+Cmin: 452, Cmax: 460, Difference: 8
+
+Class 59, Instance 2:
+Cmin: 464, Cmax: 479, Difference: 15
+
+Class 59, Instance 3:
+Cmin: 465, Cmax: 472, Difference: 7
+
+Class 59, Instance 4:
+Cmin: 433, Cmax: 444, Difference: 11
+
+Class 59, Instance 5:
+Cmin: 449, Cmax: 459, Difference: 10
+
+Class 59, Instance 6:
+Cmin: 465, Cmax: 476, Difference: 11
+
+Class 59, Instance 7:
+Cmin: 440, Cmax: 447, Difference: 7
+
+Class 59, Instance 8:
+Cmin: 441, Cmax: 455, Difference: 14
+
+Class 59, Instance 9:
+Cmin: 463, Cmax: 469, Difference: 6
+
+Class 59, Instance 10:
+Cmin: 447, Cmax: 460, Difference: 13
+
+Class 60, Instance 1:
+Cmin: 822, Cmax: 966, Difference: 144
+
+Class 60, Instance 2:
+Cmin: 873, Cmax: 955, Difference: 82
+
+Class 60, Instance 3:
+Cmin: 978, Cmax: 1036, Difference: 58
+
+Class 60, Instance 4:
+Cmin: 842, Cmax: 951, Difference: 109
+
+Class 60, Instance 5:
+Cmin: 992, Cmax: 1059, Difference: 67
+
+Class 60, Instance 6:
+Cmin: 743, Cmax: 893, Difference: 150
+
+Class 60, Instance 7:
+Cmin: 797, Cmax: 917, Difference: 120
+
+Class 60, Instance 8:
+Cmin: 922, Cmax: 1011, Difference: 89
+
+Class 60, Instance 9:
+Cmin: 974, Cmax: 1066, Difference: 92
+
+Class 60, Instance 10:
+Cmin: 1083, Cmax: 1181, Difference: 98
+
+Class 61, Instance 1:
+Cmin: 191, Cmax: 263, Difference: 72
+
+Class 61, Instance 2:
+Cmin: 195, Cmax: 273, Difference: 78
+
+Class 61, Instance 3:
+Cmin: 183, Cmax: 223, Difference: 40
+
+Class 61, Instance 4:
+Cmin: 176, Cmax: 238, Difference: 62
+
+Class 61, Instance 5:
+Cmin: 305, Cmax: 349, Difference: 44
+
+Class 61, Instance 6:
+Cmin: 143, Cmax: 207, Difference: 64
+
+Class 61, Instance 7:
+Cmin: 253, Cmax: 314, Difference: 61
+
+Class 61, Instance 8:
+Cmin: 273, Cmax: 304, Difference: 31
+
+Class 61, Instance 9:
+Cmin: 271, Cmax: 314, Difference: 43
+
+Class 61, Instance 10:
+Cmin: 288, Cmax: 312, Difference: 24
+
+Class 62, Instance 1:
+Cmin: 306, Cmax: 345, Difference: 39
+
+Class 62, Instance 2:
+Cmin: 325, Cmax: 363, Difference: 38
+
+Class 62, Instance 3:
+Cmin: 293, Cmax: 321, Difference: 28
+
+Class 62, Instance 4:
+Cmin: 284, Cmax: 316, Difference: 32
+
+Class 62, Instance 5:
+Cmin: 294, Cmax: 319, Difference: 25
+
+Class 62, Instance 6:
+Cmin: 305, Cmax: 347, Difference: 42
+
+Class 62, Instance 7:
+Cmin: 296, Cmax: 325, Difference: 29
+
+Class 62, Instance 8:
+Cmin: 361, Cmax: 376, Difference: 15
+
+Class 62, Instance 9:
+Cmin: 329, Cmax: 377, Difference: 48
+
+Class 62, Instance 10:
+Cmin: 315, Cmax: 350, Difference: 35
+
+Class 63, Instance 1:
+Cmin: 388, Cmax: 408, Difference: 20
+
+Class 63, Instance 2:
+Cmin: 381, Cmax: 397, Difference: 16
+
+Class 63, Instance 3:
+Cmin: 379, Cmax: 408, Difference: 29
+
+Class 63, Instance 4:
+Cmin: 381, Cmax: 413, Difference: 32
+
+Class 63, Instance 5:
+Cmin: 356, Cmax: 387, Difference: 31
+
+Class 63, Instance 6:
+Cmin: 366, Cmax: 379, Difference: 13
+
+Class 63, Instance 7:
+Cmin: 379, Cmax: 393, Difference: 14
+
+Class 63, Instance 8:
+Cmin: 376, Cmax: 411, Difference: 35
+
+Class 63, Instance 9:
+Cmin: 357, Cmax: 380, Difference: 23
+
+Class 63, Instance 10:
+Cmin: 361, Cmax: 376, Difference: 15
+
+Class 64, Instance 1:
+Cmin: 446, Cmax: 458, Difference: 12
+
+Class 64, Instance 2:
+Cmin: 451, Cmax: 467, Difference: 16
+
+Class 64, Instance 3:
+Cmin: 448, Cmax: 457, Difference: 9
+
+Class 64, Instance 4:
+Cmin: 450, Cmax: 462, Difference: 12
+
+Class 64, Instance 5:
+Cmin: 454, Cmax: 463, Difference: 9
+
+Class 64, Instance 6:
+Cmin: 444, Cmax: 455, Difference: 11
+
+Class 64, Instance 7:
+Cmin: 434, Cmax: 443, Difference: 9
+
+Class 64, Instance 8:
+Cmin: 456, Cmax: 467, Difference: 11
+
+Class 64, Instance 9:
+Cmin: 445, Cmax: 451, Difference: 6
+
+Class 64, Instance 10:
+Cmin: 447, Cmax: 455, Difference: 8
+
+Class 65, Instance 1:
+Cmin: 820, Cmax: 972, Difference: 152
+
+Class 65, Instance 2:
+Cmin: 924, Cmax: 989, Difference: 65
+
+Class 65, Instance 3:
+Cmin: 790, Cmax: 919, Difference: 129
+
+Class 65, Instance 4:
+Cmin: 669, Cmax: 732, Difference: 63
+
+Class 65, Instance 5:
+Cmin: 824, Cmax: 906, Difference: 82
+
+Class 65, Instance 6:
+Cmin: 725, Cmax: 894, Difference: 169
+
+Class 65, Instance 7:
+Cmin: 685, Cmax: 761, Difference: 76
+
+Class 65, Instance 8:
+Cmin: 1024, Cmax: 1134, Difference: 110
+
+Class 65, Instance 9:
+Cmin: 849, Cmax: 942, Difference: 93
+
+Class 65, Instance 10:
+Cmin: 1054, Cmax: 1141, Difference: 87
 

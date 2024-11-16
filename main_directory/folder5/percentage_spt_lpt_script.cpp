@@ -46,7 +46,8 @@ void runPercentageSPT_LPT() {
         cerr << "Error opening files for Percentage SPT-LPT." << endl;
         return;
     }
-
+    string firstLine;
+    getline(inputFile, firstLine); // Skip the first line (number of instances)
     int numJobs, numMachines, classNumber, instanceNumber;
 
     while (inputFile >> numJobs >> numMachines >> classNumber >> instanceNumber) {

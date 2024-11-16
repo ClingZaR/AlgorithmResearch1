@@ -40,7 +40,8 @@ void runMixedLPTSPT() {
         cerr << "Error opening files for Mixed LPT-SPT." << endl;
         return;
     }
-
+    string firstLine;
+    getline(inputFile, firstLine); // Skip the first line (number of instances)
     int numJobs, numMachines, classNumber, instanceNumber;
 
     while (inputFile >> numJobs >> numMachines >> classNumber >> instanceNumber) {

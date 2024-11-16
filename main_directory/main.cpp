@@ -50,9 +50,13 @@ void generateInputFile(int numJobs, int numMachines, int numClasses, int instanc
     mt19937 gen(rd());
     vector<pair<int, int>> classRanges = {{1, 100}, {30, 100}, {50, 100}, {80, 100}, {80, 300}};
 
+    int totalInstances = numClasses * instancesPerClass; // Explicit total instances calculation
+
+    inputFile << totalInstances << endl << endl;
+
     for (int classNum = 1; classNum <= numClasses; ++classNum) {
-        int minLoad = classRanges[classNum - 1].first;
-        int maxLoad = classRanges[classNum - 1].second;
+        int minLoad = classRanges[(classNum - 1) % classRanges.size()].first;
+        int maxLoad = classRanges[(classNum - 1) % classRanges.size()].second;
         uniform_int_distribution<> dis(minLoad, maxLoad);
 
         for (int instance = 1; instance <= instancesPerClass; ++instance) {
@@ -60,11 +64,30 @@ void generateInputFile(int numJobs, int numMachines, int numClasses, int instanc
             for (int job = 0; job < numJobs; ++job) {
                 inputFile << dis(gen) << (job != numJobs - 1 ? " " : "\n");
             }
+            inputFile << endl; // Add an empty line to separate instances
         }
     }
     inputFile.close();
 }
+
+
+
 void findBestAlgorithm() {
+    ifstream inputFile("main_directory/input.txt");
+    if (!inputFile) {
+        cerr << "Failed to open main_directory/input.txt for reading metadata." << endl;
+        return;
+    }
+
+    // Read the total number of instances from the first line
+    int totalInstances;
+    inputFile >> totalInstances;
+    inputFile.close();
+
+    // Predefined or inferred values
+    int instancesPerClass = 10; // Known predefined parameter
+    int numClasses = (totalInstances + instancesPerClass - 1) / instancesPerClass; // Calculate dynamically
+
     vector<string> files = {
         "main_directory/output/lpt_output.txt",
         "main_directory/output/spt_output.txt",
@@ -74,12 +97,14 @@ void findBestAlgorithm() {
     };
     vector<string> algorithmNames = {"LPT", "SPT", "50% LPT-SPT", "50% SPT-LPT", "Percentage SPT-LPT"};
     string line;
-    for (int classNum = 1; classNum <= 5; ++classNum) {
-        for (int instanceNum = 1; instanceNum <= 10; ++instanceNum) {
+
+    for (int classNum = 1; classNum <= numClasses; ++classNum) {
+        for (int instanceNum = 1; instanceNum <= instancesPerClass; ++instanceNum) {
+            if ((classNum - 1) * instancesPerClass + instanceNum > totalInstances) break;
+
             int bestNonPercentageDifference = numeric_limits<int>::max();
             string bestNonPercentageAlgorithm = "";
 
-            // Step 1: Find the best result among the first four (non-percentage) algorithms
             cout << "\nClass " << classNum << ", Instance " << instanceNum << ":\n";
             for (size_t i = 0; i < 4; ++i) {
                 ifstream file(files[i]);
@@ -97,10 +122,6 @@ void findBestAlgorithm() {
                         getline(file, line); // The line with Cmin, Cmax, and Difference
                         int difference = parseDifference(line);
 
-                        // Print the difference for debugging
-                        // cout << "  " << algorithmNames[i] << " - Difference = " << difference << endl;
-
-                        // Track the lowest difference and the algorithm name
                         if (difference < bestNonPercentageDifference) {
                             bestNonPercentageDifference = difference;
                             bestNonPercentageAlgorithm = algorithmNames[i];
@@ -115,10 +136,6 @@ void findBestAlgorithm() {
                 }
             }
 
-            // Display the best non-percentage result
-           // cout << "Best Non-Percentage Algorithm: " << bestNonPercentageAlgorithm << " with Difference = " << bestNonPercentageDifference << endl;
-
-            // Step 2: Find the best result within Percentage SPT-LPT for this Class:Instance
             int bestPercentageDifference = numeric_limits<int>::max();
             int bestPercentageSPT = 0;
             ifstream percentageFile(files[4]);
@@ -138,10 +155,6 @@ void findBestAlgorithm() {
                         int currentPercentage = stoi(line.substr(pos + 4, line.find('%') - pos - 4));
                         int difference = parseDifference(line);
 
-                        // Print each percentage-based difference for debugging
-                       // cout << "  Percentage SPT-LPT " << currentPercentage << "% - Difference = " <<difference << endl;
-
-                        // Track the lowest difference within Percentage SPT-LPT
                         if (difference < bestPercentageDifference) {
                             bestPercentageDifference = difference;
                             bestPercentageSPT = currentPercentage;
@@ -150,16 +163,13 @@ void findBestAlgorithm() {
                     break;
                 }
             }
-            percentageFile.close();
 
             if (!foundPercentageInstance) {
                 cerr << "Error: Could not find Class " << classNum << ", Instance " << instanceNum << " in " << files[4] << endl;
             }
 
-            // Display the best percentage-based result
-            // cout << "Best Percentage SPT-LPT: " << bestPercentageSPT << "% with Difference = " << bestPercentageDifference << endl;
+            percentageFile.close();
 
-            // Step 3: Compare the best non-percentage algorithm with the best Percentage SPT-LPT
             string finalAlgorithm = bestNonPercentageAlgorithm;
             int finalDifference = bestNonPercentageDifference;
             int finalPercentage = 0;
@@ -170,7 +180,6 @@ void findBestAlgorithm() {
                 finalPercentage = bestPercentageSPT;
             }
 
-            // Output the best result for this Class : Instance with explanation
             cout << "Best Algorithm : " << finalAlgorithm;
             if (finalAlgorithm == "Percentage SPT-LPT") {
                 cout << " with " << finalPercentage << "% SPT";
@@ -187,9 +196,11 @@ void findBestAlgorithm() {
 
 
 
+// Change numClasses to 65 if you want 650 instances.
+
 int main() {
     // Parameters for generating input
-    int numJobs = 10, numMachines = 2, numClasses = 5, instancesPerClass = 10;
+    int numJobs = 10, numMachines = 2, numClasses = 65, instancesPerClass = 10;
 
     // Step 1: Generate the input file
     generateInputFile(numJobs, numMachines, numClasses, instancesPerClass);

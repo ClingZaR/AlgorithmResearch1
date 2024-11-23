@@ -1,0 +1,2 @@
+Best percentage: 10%
+Cumulative Cmax: 42340

@@ -3,36 +3,52 @@
 #include <fstream>
 #include <vector>
 #include <algorithm>
+#include <chrono>
+#include <iomanip>
 using namespace std;
 
-void scheduleLPT(const vector<int>& tasks, int numMachines, ofstream& outputFile) {
+void scheduleLPT(const vector<int>& tasks, int numMachines, ofstream& outputFile, ofstream& assignmentsFile, int classNumber, int instanceNumber) {
     vector<int> machineTimes(numMachines, 0);
     vector<int> sortedTasks = tasks;
+    vector<int> taskAssignments(tasks.size());
 
-    sort(sortedTasks.rbegin(), sortedTasks.rend());
+    sort(sortedTasks.rbegin(), sortedTasks.rend()); 
 
-    for (int task : sortedTasks) {
+    auto start = chrono::high_resolution_clock::now();
+
+    for (int i = 0; i < sortedTasks.size(); ++i) {
+        int task = sortedTasks[i];
         int minMachine = min_element(machineTimes.begin(), machineTimes.end()) - machineTimes.begin();
         machineTimes[minMachine] += task;
-        // Uncomment the line below to show detailed task assignment
-        // outputFile << "Assigned task " << task << " to machine " << minMachine + 1 << endl;
+        taskAssignments[i] = minMachine + 1; 
     }
 
+    auto end = chrono::high_resolution_clock::now();
+
     int Cmax = *max_element(machineTimes.begin(), machineTimes.end());
-    int Cmin = *min_element(machineTimes.begin(), machineTimes.end());
-    outputFile << "Cmin: " << Cmin << ", Cmax: " << Cmax << ", Difference: " << (Cmax - Cmin) << "\n" << endl;
+    double timeTaken = chrono::duration_cast<chrono::nanoseconds>(end - start).count() / 1e9;
+
+    outputFile << tasks.size() << " " << numMachines << " " << classNumber << " " << instanceNumber << " " << Cmax << " " << fixed << setprecision(9) << timeTaken << endl << endl;
+
+    assignmentsFile << tasks.size() << " " << numMachines << " " << classNumber << " " << instanceNumber << endl;
+    for (int i = 0; i < tasks.size(); ++i) {
+        assignmentsFile << taskAssignments[i] << " ";
+    }
+    assignmentsFile << endl << endl;
 }
 
 void runLPT() {
     ifstream inputFile("main_directory/input.txt");
     ofstream outputFile("main_directory/output/lpt_output.txt");
+    ofstream assignmentsFile("main_directory/output/lpt_assignments.txt");
 
-    if (!inputFile || !outputFile) {
+    if (!inputFile || !outputFile || !assignmentsFile) {
         cerr << "Error opening files for LPT." << endl;
         return;
     }
+
     string firstLine;
-    getline(inputFile, firstLine); // Skip the first line (number of instances)
+    getline(inputFile, firstLine); 
     int numJobs, numMachines, classNumber, instanceNumber;
 
     while (inputFile >> numJobs >> numMachines >> classNumber >> instanceNumber) {
@@ -41,10 +57,10 @@ void runLPT() {
             inputFile >> tasks[i];
         }
 
-        outputFile << "Class " << classNumber << ", Instance " << instanceNumber << ":\n";
-        scheduleLPT(tasks, numMachines, outputFile);
+        scheduleLPT(tasks, numMachines, outputFile, assignmentsFile, classNumber, instanceNumber);
     }
 
     inputFile.close();
     outputFile.close();
+    assignmentsFile.close();
 }

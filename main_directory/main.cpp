@@ -5,13 +5,16 @@
 #include "folder5/percentage_spt_lpt_script.h"
 #include <fstream>
 #include <iostream>
-#include <limits>
-#include <random>
+#include <iomanip>
 #include <sstream>
-#include <string>
 #include <vector>
-
+#include <map>
+#include <algorithm>
+#include <filesystem>
+#include <random>
 using namespace std;
+
+namespace fs = std::filesystem;
 
 void generateMappedInputFile(const string &fileName, int instancesPerClass) {
     ofstream inputFile(fileName);
@@ -24,7 +27,7 @@ void generateMappedInputFile(const string &fileName, int instancesPerClass) {
     mt19937 gen(rd());
 
     vector<pair<vector<int>, vector<int>>> mappings = {
-        {{5, 6, 7}, {2, 3}}, 
+        {{5, 6, 7}, {2, 3}},
         {{10, 12, 15}, {3, 5, 7}}
     };
 
@@ -33,15 +36,14 @@ void generateMappedInputFile(const string &fileName, int instancesPerClass) {
     };
 
     int totalInstances = 0;
-    stringstream outputBuffer; // Buffer to store the output temporarily
+    stringstream outputBuffer;
 
     for (const auto &mapping : mappings) {
         const vector<int> &jobCounts = mapping.first;
         const vector<int> &machineCounts = mapping.second;
 
-        for (int n : jobCounts) { // Iterate over job counts first
-            for (int m : machineCounts) { // Iterate over machine counts
-                // Generate 5 classes for this combination of n and m
+        for (int n : jobCounts) {
+            for (int m : machineCounts) {
                 for (int classNumber = 1; classNumber <= 5; ++classNumber) {
                     int minLoad = classRanges[(classNumber - 1) % classRanges.size()].first;
                     int maxLoad = classRanges[(classNumber - 1) % classRanges.size()].second;
@@ -51,11 +53,9 @@ void generateMappedInputFile(const string &fileName, int instancesPerClass) {
                         totalInstances++;
                         outputBuffer << n << " " << m << " " << classNumber << " " << instance << endl;
 
-                        // Generate loads for `n` jobs
                         for (int i = 0; i < n; ++i) {
                             outputBuffer << dis(gen);
-                            if (i != n - 1)
-                                outputBuffer << " ";
+                            if (i != n - 1) outputBuffer << " ";
                         }
                         outputBuffer << endl << endl;
                     }
@@ -64,141 +64,153 @@ void generateMappedInputFile(const string &fileName, int instancesPerClass) {
         }
     }
 
-    // Write the total number of instances at the start of the file
     inputFile << totalInstances << endl << endl;
-
-    // Write the buffered output
     inputFile << outputBuffer.str();
-
     inputFile.close();
-    // cout << "Input file successfully generated: " << fileName << endl;
 }
 
+void runAlgorithmsAndGenerateCSV() {
+    vector<string> algorithmFiles = {
+        "main_directory/output/lpt_output.txt",
+        "main_directory/output/spt_output.txt",
+        "main_directory/output/mixed_lpt_spt_output.txt",
+        "main_directory/output/mixed_spt_lpt_output.txt"
+    };
 
+    vector<string> algorithmNames = {"LPT", "SPT", "50% LPT-SPT", "50% SPT-LPT"};
+    map<pair<int, int>, vector<int>> results;
+    vector<int> cumulativeCmax(algorithmFiles.size(), 0);
 
-
-
-
-void findBestAlgorithm() {
-  vector<string> files = {
-      "main_directory/output/lpt_output.txt",
-      "main_directory/output/spt_output.txt",
-      "main_directory/output/mixed_lpt_spt_output.txt",
-      "main_directory/output/mixed_spt_lpt_output.txt",
-      "main_directory/output/percentage_output/best_percentage.txt"};
-
-  vector<string> algorithmNames = {"LPT", "SPT", "50% LPT-SPT", "50% SPT-LPT",
-                                   "Percentage SPT-LPT"};
-
-  vector<int> cumulativeCmax(files.size(), 0);
-  int bestPercentage = -1;
-  int bestPercentageCmax = numeric_limits<int>::max();
-
-  for (size_t i = 0; i < files.size(); ++i) {
-    // cout << "Processing algorithm index: " << i << " (" << algorithmNames[i]
-    // << ")" << endl;
-
-    ifstream file(files[i]);
-    if (!file) {
-      cerr << "Failed to open " << files[i] << " for reading." << endl;
-      continue;
-    }
-
-    if (i == 4) { // Special case for percentage output
-     //  cout << "Processing percentage output file: " << files[i] << endl;
-
-      string bestPercentageLine, bestCmaxLine;
-      if (getline(file, bestPercentageLine) && getline(file, bestCmaxLine)) {
-        //   cout << "Reading best_percentage.txt..." << endl;
-        //  cout << "Line 1: " << bestPercentageLine << endl;
-        //   cout << "Line 2: " << bestCmaxLine << endl;
-
-        try {
-          size_t percentPos = bestPercentageLine.find('%');
-          if (percentPos != string::npos) {
-            size_t colonPos = bestPercentageLine.find(':');
-            bestPercentage = stoi(bestPercentageLine.substr(
-                colonPos + 1, percentPos - colonPos - 1));
-          //  cout << "Parsed Best Percentage: " << bestPercentage << "%" << endl;
-          } else {
-            cerr << "Percentage line format not as expected: "
-                 << bestPercentageLine << endl;
-          }
-
-          size_t colonPos = bestCmaxLine.find(':');
-          if (colonPos != string::npos) {
-            bestPercentageCmax = stoi(bestCmaxLine.substr(colonPos + 1));
-            cumulativeCmax[i] = bestPercentageCmax;
-           // cout << "Parsed Cmax: " << bestPercentageCmax << endl;
-          } else {
-            cerr << "Cmax line format not as expected: " << bestCmaxLine
-                 << endl;
-          }
-        } catch (const exception &e) {
-          cerr << "Error parsing percentage or Cmax: " << e.what() << endl;
+    ifstream inputFile;
+    for (size_t i = 0; i < algorithmFiles.size(); ++i) {
+        inputFile.open(algorithmFiles[i]);
+        if (!inputFile.is_open()) {
+            cerr << "Error opening file: " << algorithmFiles[i] << endl;
+            continue;
         }
-      } else {
-        cerr << "Failed to read lines from best_percentage.txt" << endl;
-      }
 
-      continue;
+        string line;
+        while (getline(inputFile, line)) {
+            if (line.empty() || line.find(':') != string::npos) continue;
+
+            istringstream iss(line);
+            int numJobs, numMachines, classNumber, instanceNumber, Cmax;
+            double timeTaken;
+
+            if (iss >> numJobs >> numMachines >> classNumber >> instanceNumber >> Cmax >> timeTaken) {
+                results[{numJobs * 100 + numMachines, classNumber * 10 + instanceNumber}].push_back(Cmax);
+                cumulativeCmax[i] += Cmax;
+            }
+        }
+        inputFile.close();
     }
 
-    string line;
-    while (getline(file, line)) {
-      if (line.empty() || line.find(':') != string::npos)
-        continue;
+    string outputDirectory = "main_directory/output";
+    string csvFilePath = outputDirectory + "/algorithm_comparison_results.csv";
 
-      istringstream iss(line);
-      int numJobs, numMachines, currClass, currInstance, Cmax;
-      double timeTaken;
-      if (iss >> numJobs >> numMachines >> currClass >> currInstance >> Cmax >>
-          timeTaken) {
-        cumulativeCmax[i] += Cmax;
-      } else {
-        cerr << "Error parsing line: " << line << endl;
-      }
+    if (!fs::exists(outputDirectory)) {
+        fs::create_directories(outputDirectory);
     }
 
-    file.close();
-  }
-
-  int bestAlgorithmIndex = 0;
-  int leastCmax = cumulativeCmax[0];
-  for (size_t i = 1; i < cumulativeCmax.size(); ++i) {
-    if (cumulativeCmax[i] < leastCmax) {
-      leastCmax = cumulativeCmax[i];
-      bestAlgorithmIndex = i;
+    ofstream csvFile(csvFilePath);
+    if (!csvFile.is_open()) {
+        cerr << "Error opening output CSV file." << endl;
+        return;
     }
-  }
 
-  cout << "Cumulative Cmax for each algorithm:" << endl;
-  for (size_t i = 0; i < algorithmNames.size(); ++i) {
-    cout << algorithmNames[i] << ": " << cumulativeCmax[i] << endl;
-  }
+    csvFile << "Instance";
+    for (const string &algo : algorithmNames) {
+        csvFile << "," << algo;
+    }
+    csvFile << ",,Min";
+    for (const string &algo : algorithmNames) {
+        csvFile << ",Gap " << algo;
+    }
+    csvFile << ",Best Algo ";
+    csvFile << endl;
 
-  cout << "Best Algorithm: " << algorithmNames[bestAlgorithmIndex]
-       << " with Cumulative Cmax = " << leastCmax << endl;
+    vector<int> zeroCounts(algorithmNames.size(), 0);
 
-  if (bestAlgorithmIndex == 4) {
-    cout << "Best Percentage for Percentage SPT-LPT: " << bestPercentage
-         << "%"<< endl;
-  }
+    for (const auto &entry : results) {
+        const auto &instance = entry.first;
+        const auto &cmaxValues = entry.second;
+
+        int numJobs = instance.first / 100;
+        int numMachines = instance.first % 100;
+        int classNumber = instance.second / 10;
+        int instanceNumber = instance.second % 10;
+
+        csvFile << numJobs << " " << numMachines << " " << classNumber << " " << instanceNumber;
+
+        int minCmax = *min_element(cmaxValues.begin(), cmaxValues.end());
+        for (int cmax : cmaxValues) {
+            csvFile << "," << cmax;
+        }
+
+        csvFile << ",," << minCmax;
+
+        for (size_t i = 0; i < cmaxValues.size(); ++i) {
+            double gap = static_cast<double>(cmaxValues[i] - minCmax) / minCmax;
+            csvFile << "," << fixed << setprecision(5) << gap;
+            if (gap == 0.0) {
+                zeroCounts[i]++;
+            }
+        }
+
+        csvFile << endl;
+    }
+
+    csvFile << "0 Count,,,,,,";
+    for (int count : zeroCounts) {
+        csvFile << "," << count;
+    }
+
+    int bestAlgorithmIndex = max_element(zeroCounts.begin(), zeroCounts.end()) - zeroCounts.begin();
+    string bestAlgorithm = algorithmNames[bestAlgorithmIndex];
+
+    csvFile << "," << bestAlgorithm << endl;
+
+    csvFile.close();
+    cout << "Results written to " << csvFilePath << endl;
+
+    cout << "Cumulative Cmax for each algorithm:" << endl;
+    for (size_t i = 0; i < algorithmFiles.size(); ++i) {
+        cout << algorithmNames[i] << ": " << cumulativeCmax[i] << endl;
+    }
+
+    string percentageFile = "main_directory/output/percentage_output/best_percentage.txt";
+    ifstream percentageInput(percentageFile);
+    if (percentageInput.is_open()) {
+        string line;
+        int bestPercentageCmax = 0;
+
+        while (getline(percentageInput, line)) {
+            if (line.find("Cumulative Cmax:") != string::npos) {
+                bestPercentageCmax = stoi(line.substr(line.find(":") + 1));
+            }
+        }
+        cout << "Percentage SPT-LPT: " << bestPercentageCmax << endl;
+        percentageInput.close();
+    } else {
+        cerr << "Error reading Percentage SPT-LPT results." << endl;
+    }
+
+    cout << "Best Algorithm: " << bestAlgorithm << endl;
 }
 
 int main() {
-  string fileName = "main_directory/input.txt";
-  int instancesPerPair = 10;
+    string fileName = "main_directory/input.txt";
+    int instancesPerClass = 10;
 
-  generateMappedInputFile(fileName, instancesPerPair);
+    generateMappedInputFile(fileName, instancesPerClass);
 
-  runLPT();
-  runSPT();
-  runMixedLPTSPT();
-  runMixedSPTLPT();
-  runPercentageSPT_LPT();
+    runLPT();
+    runSPT();
+    runMixedLPTSPT();
+    runMixedSPTLPT();
+    runPercentageSPT_LPT();
 
-  findBestAlgorithm();
+    runAlgorithmsAndGenerateCSV();
 
-  return 0;
+    return 0;
 }
